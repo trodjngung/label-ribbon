@@ -1,0 +1,788 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION"
+"POT-Creation-Date: 2015-07-09, 18:28:02 +07:00"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ"
+"Last-Translator: NAME <EMAIL@ADDRESS>"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+msgid "message_id"
+msgstr "EN"
+
+msgid "LAYOUT_TEXT_1"
+msgstr ""
+
+msgid "LAYOUT_TEXT_2"
+msgstr "home"
+
+msgid "LAYOUT_TEXT_3"
+msgstr "recruit"
+
+msgid "LAYOUT_TEXT_4"
+msgstr "product"
+
+msgid "LAYOUT_TEXT_5"
+msgstr "staff"
+
+msgid "LAYOUT_TEXT_6"
+msgstr "company profile"
+
+msgid "LAYOUT_TEXT_7"
+msgstr ""
+
+msgid "LAYOUT_TEXT_8"
+msgstr "contact us"
+
+msgid "LAYOUT_TEXT_9"
+msgstr "access"
+
+msgid "LAYOUT_TEXT_10"
+msgstr "LANGUAGES"
+
+msgid "LAYOUT_TEXT_10_1"
+msgstr "English"
+
+msgid "LAYOUT_TEXT_10_2"
+msgstr "Tiếng Việt"
+
+msgid "LAYOUT_TEXT_10_3"
+msgstr "日本語"
+
+msgid "LAYOUT_TEXT_11"
+msgstr ""
+
+msgid "LAYOUT_TEXT_12"
+msgstr "sitemap"
+
+msgid "LAYOUT_TEXT_13"
+msgstr "home"
+
+msgid "LAYOUT_TEXT_14"
+msgstr "recruit"
+
+msgid "LAYOUT_TEXT_15"
+msgstr "product"
+
+msgid "LAYOUT_TEXT_16"
+msgstr "staff"
+
+msgid "LAYOUT_TEXT_17"
+msgstr "company profile"
+
+msgid "LAYOUT_TEXT_18"
+msgstr "contact us"
+
+msgid "LAYOUT_TEXT_19"
+msgstr "access"
+
+msgid "LAYOUT_TEXT_20"
+msgstr "admin"
+
+msgid "LAYOUT_TEXT_21"
+msgstr "contact us"
+
+msgid "LAYOUT_TEXT_22"
+msgstr "241 Xuân Thuỷ, Cầu Giấy, Hà Nội, Việt Nam"
+
+msgid "LAYOUT_TEXT_23"
+msgstr "＋84-(0)4-3256-0182"
+
+msgid "LAYOUT_TEXT_24"
+msgstr "www.tmh-techlab.vn"
+
+msgid "LAYOUT_TEXT_25"
+msgstr "info@tmh-techlab.vn"
+
+msgid "LAYOUT_TEXT_26"
+msgstr ""
+
+msgid "LAYOUT_TEXT_27"
+msgstr "Copyright©Tribal Media House Technology Lab Co., Ltd. All rights reserved"
+
+msgid "LAYOUT_TEXT_28"
+msgstr ""
+
+msgid "TOP_TEXT_1"
+msgstr ""
+
+msgid "TOP_TEXT_2"
+msgstr "recruit"
+
+msgid "TOP_TEXT_3"
+msgstr ""
+
+msgid "TOP_TEXT_4"
+msgstr "for student"
+
+msgid "TOP_TEXT_5"
+msgstr ""
+
+msgid "TOP_TEXT_6"
+msgstr ""
+
+msgid "TOP_TEXT_7"
+msgstr "for Chareer change"
+
+msgid "TOP_TEXT_8"
+msgstr ""
+
+msgid "TOP_TEXT_9"
+msgstr "product"
+
+msgid "TOP_TEXT_10"
+msgstr ""
+
+msgid "TOP_TEXT_11"
+msgstr ""
+
+msgid "TOP_TEXT_12"
+msgstr ""
+
+msgid "TOP_TEXT_13"
+msgstr "album"
+
+msgid "COMPANY_TEXT_1"
+msgstr ""
+
+msgid "COMPANY_TEXT_2"
+msgstr "slogan"
+
+msgid "COMPANY_TEXT_3"
+msgstr "SURPRISING & MOVING EVERY HUMANG BEING"
+
+msgid "COMPANY_TEXT_4"
+msgstr "mission"
+
+msgid "COMPANY_TEXT_5"
+msgstr "Create the Future of Marketing"
+
+msgid "COMPANY_TEXT_6"
+msgstr "vision"
+
+msgid "COMPANY_TEXT_7"
+msgstr "Be the Marketing Venture that drives Marketing lnnovation"
+
+msgid "COMPANY_TEXT_8"
+msgstr ""
+
+msgid "COMPANY_TEXT_9"
+msgstr ""
+
+msgid "COMPANY_TEXT_10"
+msgstr ""
+
+msgid "COMPANY_TEXT_11"
+msgstr "Jotaro Sato"
+
+msgid "COMPANY_TEXT_12"
+msgstr ""
+
+msgid "COMPANY_TEXT_13"
+msgstr "company’s outline"
+
+msgid "COMPANY_TEXT_14"
+msgstr "company name"
+
+msgid "COMPANY_TEXT_15"
+msgstr "Tribal Media House Technology Lab Co., Ltd."
+
+msgid "COMPANY_TEXT_16"
+msgstr "address"
+
+msgid "COMPANY_TEXT_17"
+msgstr "Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam."
+
+msgid "COMPANY_TEXT_18"
+msgstr "business"
+
+msgid "COMPANY_TEXT_19"
+msgstr "software development"
+
+msgid "COMPANY_TEXT_20"
+msgstr "date of established"
+
+msgid "COMPANY_TEXT_21"
+msgstr "23/1/2015"
+
+msgid "COMPANY_TEXT_22"
+msgstr ""
+
+msgid "COMPANY_TEXT_23"
+msgstr ""
+
+msgid "COMPANY_TEXT_24"
+msgstr ""
+
+msgid "COMPANY_TEXT_25"
+msgstr "Tribal Media House, Inc"
+
+msgid "STAFF_TEXT_0_1"
+msgstr ""
+
+msgid "STAFF_TEXT_0_2"
+msgstr ""
+
+msgid "STAFF_TEXT_0_3"
+msgstr ""
+
+msgid "STAFF_TEXT_0_4"
+msgstr ""
+
+msgid "STAFF_TEXT_1_1"
+msgstr ""
+
+msgid "STAFF_TEXT_1_2"
+msgstr ""
+
+msgid "STAFF_TEXT_1_3"
+msgstr "Jotaro Sato"
+
+msgid "STAFF_TEXT_1_4"
+msgstr "reading a book / golf / snow bord"
+
+msgid "STAFF_TEXT_1_5"
+msgstr "Kanagawa/Japan"
+
+msgid "STAFF_TEXT_1_6"
+msgstr ""
+
+msgid "STAFF_TEXT_2_1"
+msgstr ""
+
+msgid "STAFF_TEXT_2_2"
+msgstr "admin"
+
+msgid "STAFF_TEXT_2_3"
+msgstr "Vu Hoai Phuong"
+
+msgid "STAFF_TEXT_2_4"
+msgstr "Traveling / Shopping / Listening music / ..."
+
+msgid "STAFF_TEXT_2_5"
+msgstr "Nam Dinh"
+
+msgid "STAFF_TEXT_2_6"
+msgstr "Haste Makes Waste"
+
+msgid "STAFF_TEXT_3_1"
+msgstr ""
+
+msgid "STAFF_TEXT_3_2"
+msgstr "communicator"
+
+msgid "STAFF_TEXT_3_3"
+msgstr "Mai Hương Sơn"
+
+msgid "STAFF_TEXT_3_4"
+msgstr "film / reading book / traveling / black / ..."
+
+msgid "STAFF_TEXT_3_5"
+msgstr "Phu Tho"
+
+msgid "STAFF_TEXT_3_6"
+msgstr "Happiness is not destination. It's the method of life."
+
+msgid "STAFF_TEXT_4_1"
+msgstr ""
+
+msgid "STAFF_TEXT_4_2"
+msgstr "engineer"
+
+msgid "STAFF_TEXT_4_3"
+msgstr "Nguyễn Hữu Chí"
+
+msgid "STAFF_TEXT_4_4"
+msgstr ""
+
+msgid "STAFF_TEXT_4_5"
+msgstr ""
+
+msgid "STAFF_TEXT_4_6"
+msgstr ""
+
+msgid "STAFF_TEXT_5_1"
+msgstr ""
+
+msgid "STAFF_TEXT_5_2"
+msgstr "engineer"
+
+msgid "STAFF_TEXT_5_3"
+msgstr "Quangg Minh"
+
+msgid "STAFF_TEXT_5_4"
+msgstr "Chatting, Playing game, Music"
+
+msgid "STAFF_TEXT_5_5"
+msgstr ""
+
+msgid "STAFF_TEXT_5_6"
+msgstr "Work hard and play hard"
+
+msgid "STAFF_TEXT_6_1"
+msgstr ""
+
+msgid "STAFF_TEXT_6_2"
+msgstr "engineer"
+
+msgid "STAFF_TEXT_6_3"
+msgstr "Quy Pv"
+
+msgid "STAFF_TEXT_6_4"
+msgstr ""
+
+msgid "STAFF_TEXT_6_5"
+msgstr ""
+
+msgid "STAFF_TEXT_6_6"
+msgstr "Life is waiting"
+
+msgid "STAFF_TEXT_7_1"
+msgstr ""
+
+msgid "STAFF_TEXT_7_2"
+msgstr "engineer"
+
+msgid "STAFF_TEXT_7_3"
+msgstr ""
+
+msgid "STAFF_TEXT_7_4"
+msgstr "eat barbecue, watch cartoon, sleep when have free time, ..."
+
+msgid "STAFF_TEXT_7_5"
+msgstr "Ninh Binh"
+
+msgid "STAFF_TEXT_7_6"
+msgstr "Let’s act as you talk and think"
+
+msgid "STAFF_TEXT_8_1"
+msgstr ""
+
+msgid "STAFF_TEXT_8_2"
+msgstr "engineer"
+
+msgid "STAFF_TEXT_8_3"
+msgstr ""
+
+msgid "STAFF_TEXT_8_4"
+msgstr "Travelling with motorbikes, America tv series."
+
+msgid "STAFF_TEXT_8_5"
+msgstr "Ha Noi"
+
+msgid "STAFF_TEXT_8_6"
+msgstr "When you want to give up, remember why you started."
+
+msgid "STAFF_TEXT_9_1"
+msgstr ""
+
+msgid "STAFF_TEXT_9_2"
+msgstr "engineer"
+
+msgid "STAFF_TEXT_9_3"
+msgstr ""
+
+msgid "STAFF_TEXT_9_4"
+msgstr ""
+
+msgid "STAFF_TEXT_9_5"
+msgstr ""
+
+msgid "STAFF_TEXT_9_6"
+msgstr ""
+
+msgid "STAFF_TEXT_10_1"
+msgstr ""
+
+msgid "STAFF_TEXT_10_2"
+msgstr "engineer"
+
+msgid "STAFF_TEXT_10_3"
+msgstr ""
+
+msgid "STAFF_TEXT_10_4"
+msgstr ""
+
+msgid "STAFF_TEXT_10_5"
+msgstr ""
+
+msgid "STAFF_TEXT_10_6"
+msgstr ""
+
+msgid "PRODUCT_TEXT_1"
+msgstr ""
+
+msgid "PRODUCT_TEXT_2"
+msgstr "cocosquare"
+
+msgid "PRODUCT_TEXT_3"
+msgstr "cocosquare is a brand community platform that is built on the concept of Co-creation with customers.<br>It provides a community which has the feature to support a relationship-building and mutual understanding by the long-term dialogue with customers not only a characteristic feature of the community panel such as MROC(Marketing Research Online Community), questionnaires and voting  as ASP(Application Service Provider)."
+
+msgid "PRODUCT_TEXT_4"
+msgstr "http://cocosquare.tribalmedia.co.jp"
+
+msgid "PRODUCT_TEXT_5"
+msgstr ""
+
+msgid "PRODUCT_TEXT_6"
+msgstr "Engage Manager"
+
+msgid "PRODUCT_TEXT_7"
+msgstr "Engage Manger is social media integrated management tool that was born in order to simplify the operation of social media account. <br>It can be managed various social media account such as Facebook, Twitter, google+, YouTube and mixi and be strong support for social media personnel by strategic decisions from day-to-day operations."
+
+msgid "PRODUCT_TEXT_8"
+msgstr "http://engagemanager.tribalmedia.co.jp"
+
+msgid "PRODUCT_TEXT_9"
+msgstr ""
+
+msgid "PRODUCT_TEXT_10"
+msgstr "Boom Research"
+
+msgid "PRODUCT_TEXT_11"
+msgstr "Boom Research is an analysis tool that can be supported in various departments such as marketing, advertising and public relations. It has collected a word‐of‐mouth communication data of various site such as Blogs, Twitter and Q&A site in Japan. And also it can be used easily without expert analysis knowledge."
+
+msgid "PRODUCT_TEXT_12"
+msgstr "http://boomresearch.tribalmedia.co.jp"
+
+msgid "CONTACT_TEXT_1"
+msgstr "thank you for your contact."
+
+msgid "CONTACT_TEXT_2"
+msgstr "name"
+
+msgid "CONTACT_TEXT_3"
+msgstr "your name"
+
+msgid "CONTACT_TEXT_4"
+msgstr "e-mail"
+
+msgid "CONTACT_TEXT_5"
+msgstr "sample@tmh-techlab.vn"
+
+msgid "CONTACT_TEXT_6"
+msgstr "phone number"
+
+msgid "CONTACT_TEXT_7"
+msgstr "012-335-6789"
+
+msgid "CONTACT_TEXT_8"
+msgstr "university/company name"
+
+msgid "CONTACT_TEXT_9"
+msgstr ""
+
+msgid "CONTACT_TEXT_10"
+msgstr "position"
+
+msgid "CONTACT_TEXT_11"
+msgstr ""
+
+msgid "CONTACT_TEXT_12"
+msgstr "division"
+
+msgid "CONTACT_TEXT_13"
+msgstr ""
+
+msgid "CONTACT_TEXT_14"
+msgstr "type of contact"
+
+msgid "CONTACT_TEXT_15"
+msgstr "type of contact"
+
+msgid "CONTACT_TEXT_15_1"
+msgstr "recruit"
+
+msgid "CONTACT_TEXT_15_2"
+msgstr "other"
+
+msgid "CONTACT_TEXT_16"
+msgstr "note"
+
+msgid "CONTACT_TEXT_17"
+msgstr "Please,input your message."
+
+msgid "CONTACT_TEXT_18"
+msgstr "send"
+
+msgid "ACCESS_TEXT_1"
+msgstr ""
+
+msgid "ACCESS_TEXT_2"
+msgstr "Office"
+
+msgid "ACCESS_TEXT_3"
+msgstr "Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam."
+
+msgid "ACCESS_TEXT_4"
+msgstr "info@tmh-techlab.vn"
+
+msgid "ACCESS_TEXT_5"
+msgstr "＋84-(0)4-3256-5182"
+
+msgid "ACCESS_TEXT_6"
+msgstr "Working hours"
+
+msgid "ACCESS_TEXT_7"
+msgstr "Monday-Friday: 8h30 〜 17h30"
+
+msgid "ACCESS_TEXT_8"
+msgstr "Saturday, Sunday, Holiday: Close"
+
+msgid "ERROR_TEXT_1"
+msgstr "error"
+
+msgid "ERROR_TEXT_2"
+msgstr ""
+
+msgid "ERROR_TEXT_3"
+msgstr "back to home"
+
+msgid "THANKS_R_TEXT_1"
+msgstr "thank you"
+
+msgid "THANKS_R_TEXT_2"
+msgstr ""
+
+msgid "THANKS_R_TEXT_3"
+msgstr "back to home"
+
+msgid "THANKS_C_TEXT_1"
+msgstr "thank you"
+
+msgid "THANKS_C_TEXT_2"
+msgstr ""
+
+msgid "THANKS_C_TEXT_3"
+msgstr "back to home"
+
+msgid "RECRUIT_TEXT_1"
+msgstr ""
+
+msgid "RECRUIT_TEXT_2"
+msgstr "Made in Tribal Media House"
+
+msgid "RECRUIT_TEXT_3"
+msgstr ""
+
+msgid "RECRUIT_TEXT_4"
+msgstr ""
+
+msgid "RECRUIT_TEXT_5"
+msgstr ""
+
+msgid "RECRUIT_TEXT_6"
+msgstr ""
+
+msgid "RECRUIT_TEXT_7"
+msgstr ""
+
+msgid "RECRUIT_TEXT_8"
+msgstr ""
+
+msgid "RECRUIT_TEXT_9"
+msgstr ""
+
+msgid "RECRUIT_TEXT_10"
+msgstr ""
+
+msgid "RECRUIT_TEXT_11"
+msgstr ""
+
+msgid "RECRUIT_TEXT_12"
+msgstr ""
+
+msgid "RECRUIT_TEXT_13"
+msgstr ""
+
+msgid "RECRUIT_TEXT_14"
+msgstr ""
+
+msgid "RECRUIT_TEXT_15"
+msgstr ""
+
+msgid "RECRUIT_TEXT_16"
+msgstr ""
+
+msgid "RECRUIT_TEXT_17"
+msgstr ""
+
+msgid "RECRUIT_TEXT_18"
+msgstr ""
+
+msgid "RECRUIT_TEXT_19"
+msgstr ""
+
+msgid "RECRUIT_TEXT_20"
+msgstr ""
+
+msgid "RECRUIT_TEXT_21"
+msgstr ""
+
+msgid "RECRUIT_TEXT_22"
+msgstr ""
+
+msgid "RECRUIT_TEXT_23"
+msgstr ""
+
+msgid "RECRUIT_TEXT_24"
+msgstr ""
+
+msgid "RECRUIT_TEXT_25"
+msgstr ""
+
+msgid "RECRUIT_TEXT_26"
+msgstr "recruit@tmh-techlab.vn"
+
+msgid "RECRUIT_TEXT_27"
+msgstr ""
+
+msgid "RECRUIT_TEXT_28"
+msgstr "012-345-6789"
+
+msgid "RECRUIT_TEXT_29"
+msgstr ""
+
+msgid "RECRUIT_TEXT_30"
+msgstr ""
+
+msgid "RECRUIT_TEXT_31"
+msgstr ""
+
+msgid "RECRUIT_TEXT_32"
+msgstr ""
+
+msgid "RECRUIT_TEXT_33"
+msgstr ""
+
+msgid "RECRUIT_TEXT_50_1"
+msgstr ""
+
+msgid "RECRUIT_TEXT_50_2"
+msgstr ""
+
+msgid "RECRUIT_50_3"
+msgstr ""
+
+msgid "RECRUIT_50_4"
+msgstr ""
+
+msgid "RECRUIT_50_5"
+msgstr ""
+
+msgid "RECRUIT_50_6"
+msgstr ""
+
+msgid "RECRUIT_50_7"
+msgstr ""
+
+msgid "RECRUIT_50_8"
+msgstr ""
+
+msgid "RECRUIT_50_9"
+msgstr ""
+
+msgid "RECRUIT_50_10"
+msgstr ""
+
+msgid "RECRUIT_50_11"
+msgstr ""
+
+msgid "RECRUIT_50_12"
+msgstr ""
+
+msgid "RECRUIT_50_13"
+msgstr ""
+
+msgid "RECRUIT_50_14"
+msgstr ""
+
+msgid "RECRUIT_50_15"
+msgstr ""
+
+msgid "RECRUIT_60_1"
+msgstr "8:30"
+
+msgid "RECRUIT_60_2"
+msgstr "11:55"
+
+msgid "RECRUIT_60_3"
+msgstr "13:00"
+
+msgid "RECRUIT_60_4"
+msgstr ""
+
+msgid "RECRUIT_60_5"
+msgstr ""
+
+msgid "RECRUIT_60_6"
+msgstr ""
+
+msgid "RECRUIT_60_7"
+msgstr ""
+
+msgid "RECRUIT_60_8"
+msgstr ""
+
+msgid "RECRUIT_60_9"
+msgstr ""
+
+msgid "RECRUIT_60_10"
+msgstr ""
+
+msgid "RECRUIT_60_11"
+msgstr ""
+
+msgid "RECRUIT_60_12"
+msgstr ""
+
+msgid "RECRUIT_60_13"
+msgstr ""
+
+msgid "RECRUIT_70_1"
+msgstr ""
+
+msgid "RECRUIT_70_2"
+msgstr ""
+
+msgid "RECRUIT_70_3"
+msgstr ""
+
+msgid "RECRUIT_70_4"
+msgstr ""
+
+msgid "RECRUIT_70_5"
+msgstr ""
+
+msgid "RECRUIT_70_6"
+msgstr ""
+
+msgid "RECRUIT_70_7"
+msgstr ""
+
+msgid "RECRUIT_70_8"
+msgstr ""
+
+msgid "TITLE_1"
+msgstr "home"
+
+msgid "TITLE_2"
+msgstr "recruit"
+
+msgid "TITLE_3"
+msgstr "product"
+
+msgid "TITLE_5"
+msgstr "staff"
+
+msgid "TITLE_6"
+msgstr "company profile"
+
+msgid "TITLE_7"
+msgstr "contact us"
+
+msgid "TITLE_8"
+msgstr "access"
+

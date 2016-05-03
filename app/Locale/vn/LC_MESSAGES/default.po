@@ -1,0 +1,788 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION"
+"POT-Creation-Date: 2015-07-09, 18:28:02 +07:00"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ"
+"Last-Translator: NAME <EMAIL@ADDRESS>"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+msgid "message_id"
+msgstr "VN"
+
+msgid "LAYOUT_TEXT_1"
+msgstr ""
+
+msgid "LAYOUT_TEXT_2"
+msgstr "Trang chủ"
+
+msgid "LAYOUT_TEXT_3"
+msgstr "Tuyển dụng"
+
+msgid "LAYOUT_TEXT_4"
+msgstr "Sản phẩm"
+
+msgid "LAYOUT_TEXT_5"
+msgstr "Nhân viên"
+
+msgid "LAYOUT_TEXT_6"
+msgstr "Giới thiệu"
+
+msgid "LAYOUT_TEXT_7"
+msgstr ""
+
+msgid "LAYOUT_TEXT_8"
+msgstr "Liên hệ"
+
+msgid "LAYOUT_TEXT_9"
+msgstr "Địa chỉ"
+
+msgid "LAYOUT_TEXT_10"
+msgstr "LANGUAGES"
+
+msgid "LAYOUT_TEXT_10_1"
+msgstr "English"
+
+msgid "LAYOUT_TEXT_10_2"
+msgstr "Tiếng Việt"
+
+msgid "LAYOUT_TEXT_10_3"
+msgstr "日本語"
+
+msgid "LAYOUT_TEXT_11"
+msgstr ""
+
+msgid "LAYOUT_TEXT_12"
+msgstr "Sơ đồ"
+
+msgid "LAYOUT_TEXT_13"
+msgstr "Trang chủ"
+
+msgid "LAYOUT_TEXT_14"
+msgstr "Tuyển dụng"
+
+msgid "LAYOUT_TEXT_15"
+msgstr "Sản phẩm"
+
+msgid "LAYOUT_TEXT_16"
+msgstr "Nhân viên"
+
+msgid "LAYOUT_TEXT_17"
+msgstr "Giới thiệu"
+
+msgid "LAYOUT_TEXT_18"
+msgstr "Liên hệ"
+
+msgid "LAYOUT_TEXT_19"
+msgstr "Địa chỉ"
+
+msgid "LAYOUT_TEXT_20"
+msgstr "Quản lý"
+
+msgid "LAYOUT_TEXT_21"
+msgstr "Liên hệ"
+
+msgid "LAYOUT_TEXT_22"
+msgstr "241 Xuân Thuỷ, Cầu Giấy, Hà Nội, Việt Nam"
+
+msgid "LAYOUT_TEXT_23"
+msgstr "＋84-(0)4-3256-0182"
+
+msgid "LAYOUT_TEXT_24"
+msgstr "www.tmh-techlab.vn"
+
+msgid "LAYOUT_TEXT_25"
+msgstr "info@tmh-techlab.vn"
+
+msgid "LAYOUT_TEXT_26"
+msgstr ""
+
+msgid "LAYOUT_TEXT_27"
+msgstr "Copyright©Tribal Media House Technology Lab Co., Ltd. All rights reserved"
+
+msgid "LAYOUT_TEXT_28"
+msgstr ""
+
+msgid "TOP_TEXT_1"
+msgstr ""
+
+msgid "TOP_TEXT_2"
+msgstr "Tuyển dụng"
+
+msgid "TOP_TEXT_3"
+msgstr ""
+
+msgid "TOP_TEXT_4"
+msgstr "Dành cho sinh viên mới tốt nghiệp"
+
+msgid "TOP_TEXT_5"
+msgstr "Tuyển dụng số lượng lớn sinh viên đã/sẽ tốt nghiệp năm 2015!<br>Chúng tôi chào đón những ứng viên tìm kiếm cơ hội việc làm kỹ sư lập trình ứng dụng Web. Bạn có muốn thử sức mình với các kỹ năng phát triển, kỹ năng kinh doanh theo phong cách Nhật Bản? Chúng tôi đang tìm kiếm các bạn sinh viên có hứng thú với đất nước Nhật Bản, cùng chúng tôi phát triển và trưởng thành!"
+
+msgid "TOP_TEXT_6"
+msgstr ""
+
+msgid "TOP_TEXT_7"
+msgstr "Dành cho ứng viên có nhu cầu chuyển việc"
+
+msgid "TOP_TEXT_8"
+msgstr "Chúng tôi chào đón những ứng viên muốn phát triển sự nghiệp và học hỏi văn hoá tại doanh nghiệp Nhật Bản, ứng viên muốn tìm hiểu về các kỹ thuật không chỉ sử dụng tại Nhật Bản mà trên toàn thế giới, ứng viên muốn mở rộng kinh nghiệm của bản thân với tư cách là thành viên thiết lập công ty, ứng viên mong muốn hoạt động với tư cách nhà lãnh đạo, nhà quản lý tương lai."
+
+msgid "TOP_TEXT_9"
+msgstr "Sản phẩm"
+
+msgid "TOP_TEXT_10"
+msgstr ""
+
+msgid "TOP_TEXT_11"
+msgstr ""
+
+msgid "TOP_TEXT_12"
+msgstr ""
+
+msgid "TOP_TEXT_13"
+msgstr "Album"
+
+msgid "COMPANY_TEXT_1"
+msgstr ""
+
+msgid "COMPANY_TEXT_2"
+msgstr "Khẩu hiệu"
+
+msgid "COMPANY_TEXT_3"
+msgstr "SURPRISING & MOVING EVERY HUMANG BEING"
+
+msgid "COMPANY_TEXT_4"
+msgstr "Nhiệm vụ"
+
+msgid "COMPANY_TEXT_5"
+msgstr "Create the Future of Marketing"
+
+msgid "COMPANY_TEXT_6"
+msgstr "Tầm nhìn"
+
+msgid "COMPANY_TEXT_7"
+msgstr "Be the Marketing Venture that drives Marketing lnnovation"
+
+msgid "COMPANY_TEXT_8"
+msgstr "Lời nhắn của Tổng Giám đốc"
+
+msgid "COMPANY_TEXT_9"
+msgstr ""
+
+msgid "COMPANY_TEXT_10"
+msgstr "Tổng giám đốc"
+
+msgid "COMPANY_TEXT_11"
+msgstr "Jotaro Sato"
+
+msgid "COMPANY_TEXT_12"
+msgstr "Xin chào,<br>Tribal Media House chúng tôi là công ty marketing venture với sứ mệnh "Tạo dựng tương lai marketing". Để tiếp nối sứ mệnh đó, TMH Tech. Lab được thành lập với chủ đề là Technology & Marketing, sẽ cung cấp các sản phẩm về giải pháp marketing ứng dụng tại Nhật Bản và trên thế giới.<br>Việt Nam và Nhật Bản là hai đất nước có hai nền văn hoá và ngôn ngữ khác nhau. Khi có vấn đề gì xảy ra, tôi nghĩ cũng khó có thể giải quyết nhanh chóng được. Tuy nhiên, ở đây tôi không đề cập đến sự khác nhau về đất nước, văn hoá và con người, đối với Công ty chúng tôi để đạt được mục tiêu phát triển các giải pháp "Mang lại sự bất ngờ và cảm động cho nhân loại", yếu tố quan trọng nhất chính là tích cực đa dạng hoá các hoạt động, tạo dựng đội ngũ nhân viên đoàn kết, đồng lòng vượt qua mọi thử thách cho dù đó là gì chăng nữa.<br>Tuy TMH Tech. Lab là công ty mới thành lập, sẽ gặp nhiều khó khăn thử thách nhưng chúng tôi sẽ dốc toàn lực để phát triển những giải pháp tối ưu bằng chính đội ngũ lập trình viên toàn cầu của mình, vượt qua mọi trở ngại về ngôn ngữ, văn hoá và vị trí địa lý giữa các quốc gia."
+
+msgid "COMPANY_TEXT_13"
+msgstr "Khái quát về công ty"
+
+msgid "COMPANY_TEXT_14"
+msgstr "Tên công ty"
+
+msgid "COMPANY_TEXT_15"
+msgstr "Tribal Media House Technology Lab Co., Ltd."
+
+msgid "COMPANY_TEXT_16"
+msgstr "Địa chỉ"
+
+msgid "COMPANY_TEXT_17"
+msgstr "Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam."
+
+msgid "COMPANY_TEXT_18"
+msgstr "Hoạt động kinh doanh"
+
+msgid "COMPANY_TEXT_19"
+msgstr "Phát triển phần mềm"
+
+msgid "COMPANY_TEXT_20"
+msgstr "Ngày thành lập"
+
+msgid "COMPANY_TEXT_21"
+msgstr "23/1/2015"
+
+msgid "COMPANY_TEXT_22"
+msgstr "Thể chế thực hiện"
+
+msgid "COMPANY_TEXT_23"
+msgstr "Tổng giám đốc Jotaro Stato"
+
+msgid "COMPANY_TEXT_24"
+msgstr "Chủ đầu tư"
+
+msgid "COMPANY_TEXT_25"
+msgstr "Tribal Media House, Inc"
+
+msgid "STAFF_TEXT_0_1"
+msgstr "Sở thích"
+
+msgid "STAFF_TEXT_0_2"
+msgstr "Quê quán"
+
+msgid "STAFF_TEXT_0_3"
+msgstr ""
+
+msgid "STAFF_TEXT_0_4"
+msgstr ""
+
+msgid "STAFF_TEXT_1_1"
+msgstr ""
+
+msgid "STAFF_TEXT_1_2"
+msgstr "Tổng giám đốc"
+
+msgid "STAFF_TEXT_1_3"
+msgstr "Jotaro Sato"
+
+msgid "STAFF_TEXT_1_4"
+msgstr "Đọc sách / Chơi gôn / trượt tuyết"
+
+msgid "STAFF_TEXT_1_5"
+msgstr "Kanagawa/ Nhật Bản"
+
+msgid "STAFF_TEXT_1_6"
+msgstr ""
+
+msgid "STAFF_TEXT_2_1"
+msgstr ""
+
+msgid "STAFF_TEXT_2_2"
+msgstr "Hành chính- Nhân sự"
+
+msgid "STAFF_TEXT_2_3"
+msgstr "Vũ Hoài Phương"
+
+msgid "STAFF_TEXT_2_4"
+msgstr "Du lịch, mua sắm, nghe nhạc,..."
+
+msgid "STAFF_TEXT_2_5"
+msgstr "Nam Định"
+
+msgid "STAFF_TEXT_2_6"
+msgstr "Dục tốc bất đạt"
+
+msgid "STAFF_TEXT_3_1"
+msgstr ""
+
+msgid "STAFF_TEXT_3_2"
+msgstr "Phiên dịch"
+
+msgid "STAFF_TEXT_3_3"
+msgstr "Mai Hương Sơn"
+
+msgid "STAFF_TEXT_3_4"
+msgstr "Xem phim, đọc sách, du lịch, màu đen,..."
+
+msgid "STAFF_TEXT_3_5"
+msgstr "Phú Thọ"
+
+msgid "STAFF_TEXT_3_6"
+msgstr "Happiness is not destination. It's the method of life."
+
+msgid "STAFF_TEXT_4_1"
+msgstr ""
+
+msgid "STAFF_TEXT_4_2"
+msgstr "Kỹ sư"
+
+msgid "STAFF_TEXT_4_3"
+msgstr "Nguyễn Hữu Chí"
+
+msgid "STAFF_TEXT_4_4"
+msgstr " tìm hiểu  văn hoá, nghệ thuật ,công nghệ , Câu cá , chơi thể thao."
+
+msgid "STAFF_TEXT_4_5"
+msgstr "Hà Nội"
+
+msgid "STAFF_TEXT_4_6"
+msgstr "Hãy đến những nơi bạn được chào đón, không nên tới những nơi bạn phải chịu đựng."
+
+msgid "STAFF_TEXT_5_1"
+msgstr ""
+
+msgid "STAFF_TEXT_5_2"
+msgstr "Kỹ sư"
+
+msgid "STAFF_TEXT_5_3"
+msgstr "Trần Quang Minh"
+
+msgid "STAFF_TEXT_5_4"
+msgstr " Tán phét, chơi game và nghe nhạc"
+
+msgid "STAFF_TEXT_5_5"
+msgstr "Hà Nội"
+
+msgid "STAFF_TEXT_5_6"
+msgstr "Làm hết sức, chơi hết mình"
+
+msgid "STAFF_TEXT_6_1"
+msgstr ""
+
+msgid "STAFF_TEXT_6_2"
+msgstr "Kỹ sư"
+
+msgid "STAFF_TEXT_6_3"
+msgstr "Quy Pv"
+
+msgid "STAFF_TEXT_6_4"
+msgstr "Bánh rán, bánh nướng, thích ở nhà vào mùa đông và nằm ngủ khi trời đang mưa."
+
+msgid "STAFF_TEXT_6_5"
+msgstr "Quảng Bình"
+
+msgid "STAFF_TEXT_6_6"
+msgstr "Cuộc sống là phải chờ đợi"
+
+msgid "STAFF_TEXT_7_1"
+msgstr ""
+
+msgid "STAFF_TEXT_7_2"
+msgstr "Kỹ sư"
+
+msgid "STAFF_TEXT_7_3"
+msgstr "Dinh Thi Nhinh "
+
+msgid "STAFF_TEXT_7_4"
+msgstr "ăn đồ nướng, xem phim hoạt hình, ngủ khi có thời gian dảnh"
+
+msgid "STAFF_TEXT_7_5"
+msgstr "Ninh Binh"
+
+msgid "STAFF_TEXT_7_6"
+msgstr "Hãy hành động theo những gì bạn nói và nghĩ"
+
+msgid "STAFF_TEXT_8_1"
+msgstr ""
+
+msgid "STAFF_TEXT_8_2"
+msgstr "Kỹ sư"
+
+msgid "STAFF_TEXT_8_3"
+msgstr "Nguyen Viet Duc"
+
+msgid "STAFF_TEXT_8_4"
+msgstr "Đi phượt bằng xe máy, phim truyền hình Mỹ."
+
+msgid "STAFF_TEXT_8_5"
+msgstr "Hà Nội"
+
+msgid "STAFF_TEXT_8_6"
+msgstr "Khi bạn từ bỏ, hãy nhớ tại sao mình bắt đầu."
+
+msgid "STAFF_TEXT_9_1"
+msgstr ""
+
+msgid "STAFF_TEXT_9_2"
+msgstr "Kỹ sư"
+
+msgid "STAFF_TEXT_9_3"
+msgstr ""
+
+msgid "STAFF_TEXT_9_4"
+msgstr ""
+
+msgid "STAFF_TEXT_9_5"
+msgstr ""
+
+msgid "STAFF_TEXT_9_6"
+msgstr ""
+
+msgid "STAFF_TEXT_10_1"
+msgstr ""
+
+msgid "STAFF_TEXT_10_2"
+msgstr "Kỹ sư"
+
+msgid "STAFF_TEXT_10_3"
+msgstr ""
+
+msgid "STAFF_TEXT_10_4"
+msgstr ""
+
+msgid "STAFF_TEXT_10_5"
+msgstr ""
+
+msgid "STAFF_TEXT_10_6"
+msgstr ""
+
+msgid "PRODUCT_TEXT_1"
+msgstr ""
+
+msgid "PRODUCT_TEXT_2"
+msgstr "cocosquare"
+
+msgid "PRODUCT_TEXT_3"
+msgstr "Cocosquare (Nền tảng đồng sáng tạo Marketing) có tính năng chủ yếu là thực hiện điều tra về chất (Dùng MROC và thảo luận) và điều tra về lượng (dùng phiếu khảo sát và bầu chọn). Đồng thời, tăng cường nâng cao sự tham gia đóng góp của người sử dụng bằng cách hỗ trợ thiết lập mối quan hệ và sự hiểu biết lẫn nhau giữa người sử dụng và doanh nghiệp (thương hiệu) thông qua việc đối thoại trung và dài kỳ."
+
+msgid "PRODUCT_TEXT_4"
+msgstr "http://cocosquare.tribalmedia.co.jp"
+
+msgid "PRODUCT_TEXT_5"
+msgstr ""
+
+msgid "PRODUCT_TEXT_6"
+msgstr "Engage Manager"
+
+msgid "PRODUCT_TEXT_7"
+msgstr "Là công cụ quản lý tổng hợp tất cả phương tiện truyền thông xã hội mới được tạo lập trong nước, nhằm đơn giản hoá nghiệp vụ vận hành quản lý phương tiện truyền thông. Hỗ trợ mạnh mẽ người hoạt động trong lĩnh vực phương tiện truyền thông xã hội từ việc quản lý chung tất cả các tài khoản đăng nhập phương tiện truyền thông xã hội trong doanh nghiệp, vận hành quản lý hàng ngày đến những quyết định mang tính chiến lược."
+
+msgid "PRODUCT_TEXT_8"
+msgstr "http://engagemanager.tribalmedia.co.jp"
+
+msgid "PRODUCT_TEXT_9"
+msgstr ""
+
+msgid "PRODUCT_TEXT_10"
+msgstr "Boom Research"
+
+msgid "PRODUCT_TEXT_11"
+msgstr "Là công cụ phân tích phương thức truyền miệng, có thể thu thập tất cả các dữ liệu truyền miệng trong nước, tiến hành phân tích chuyên nghiệp bằng các thao tác đơn giản trực quan. Hỗ trợ mạnh mẽ cho người hoạt động trong các lĩnh vực quan hệ công chúng, tuyên truyền, marketing từ việc có thể lập báo cáo một cách chuyên nghiệp chỉ bằng một cái click chuột, tính toán hiệu quả đến quản lý rủi ro. "
+
+msgid "PRODUCT_TEXT_12"
+msgstr "http://boomresearch.tribalmedia.co.jp"
+
+msgid "CONTACT_TEXT_1"
+msgstr "Cảm ơn bạn đã liên hệ với chúng tôi!"
+
+msgid "CONTACT_TEXT_2"
+msgstr "Họ tên"
+
+msgid "CONTACT_TEXT_3"
+msgstr "Họ tên"
+
+msgid "CONTACT_TEXT_4"
+msgstr "e-mail"
+
+msgid "CONTACT_TEXT_5"
+msgstr "sample@tmh-techlab.vn"
+
+msgid "CONTACT_TEXT_6"
+msgstr "Điện thoại"
+
+msgid "CONTACT_TEXT_7"
+msgstr "012-335-6789"
+
+msgid "CONTACT_TEXT_8"
+msgstr "Tên trường/ Tên công ty"
+
+msgid "CONTACT_TEXT_9"
+msgstr ""
+
+msgid "CONTACT_TEXT_10"
+msgstr "Vị trí"
+
+msgid "CONTACT_TEXT_11"
+msgstr ""
+
+msgid "CONTACT_TEXT_12"
+msgstr "Tên bộ phận"
+
+msgid "CONTACT_TEXT_13"
+msgstr ""
+
+msgid "CONTACT_TEXT_14"
+msgstr "Loại liên lạc"
+
+msgid "CONTACT_TEXT_15"
+msgstr "Loại liên lạc"
+
+msgid "CONTACT_TEXT_15_1"
+msgstr "Tuyển dụng"
+
+msgid "CONTACT_TEXT_15_2"
+msgstr "Khác"
+
+msgid "CONTACT_TEXT_16"
+msgstr "Lời nhắn"
+
+msgid "CONTACT_TEXT_17"
+msgstr "Hãy nhập văn bản vào đây."
+
+msgid "CONTACT_TEXT_18"
+msgstr "Gửi"
+
+msgid "ACCESS_TEXT_1"
+msgstr ""
+
+msgid "ACCESS_TEXT_2"
+msgstr "Văn phòng"
+
+msgid "ACCESS_TEXT_3"
+msgstr "Indochina Plaza Hanoi, 241 Xuan Thuy Str., Cau Giay Dist., Hanoi, Vietnam."
+
+msgid "ACCESS_TEXT_4"
+msgstr "info@tmh-techlab.vn"
+
+msgid "ACCESS_TEXT_5"
+msgstr "＋84-(0)4-3256-5182"
+
+msgid "ACCESS_TEXT_6"
+msgstr "Thời gian làm việc"
+
+msgid "ACCESS_TEXT_7"
+msgstr "Thứ hai - Thứ sáu: 8:30 ~ 17:30"
+
+msgid "ACCESS_TEXT_8"
+msgstr "Thứ bảy, Chủ nhật, các ngày lễ: Nghỉ"
+
+msgid "ERROR_TEXT_1"
+msgstr "Lỗi"
+
+msgid "ERROR_TEXT_2"
+msgstr "Đã phát sinh lỗi."
+
+msgid "ERROR_TEXT_3"
+msgstr "Quay về Trang chủ"
+
+msgid "THANKS_R_TEXT_1"
+msgstr "Cảm ơn bạn đã ứng tuyển."
+
+msgid "THANKS_R_TEXT_2"
+msgstr "Sau đây chúng tôi sẽ gửi email trả lời tự động.<br>Trường hợp không nhận được email trả lời, do không thể xử lý thông thường. vui lòng thực hiện lại một lần nữa theo mẫu và liên hệ tới địa chỉ info@tmh-techlab.vn.<br>Chúng tôi sẽ liên hệ lại sau khi xác nhận nội dung ứng tuyển.<br>Ngoài ra, nếu có thắc mắc vui lòng liên hệ với chúng tồi."
+
+msgid "THANKS_R_TEXT_3"
+msgstr "Quay về Trang chủ"
+
+msgid "THANKS_C_TEXT_1"
+msgstr "Cảm ơn bạn đã liên hệ với chúng tôi."
+
+msgid "THANKS_C_TEXT_2"
+msgstr "Sau đây chúng tôi sẽ gửi email trả lời tự động.<br>Trường hợp không nhận được email trả lời, do không thể xử lý thông thường. vui lòng thực hiện lại một lần nữa theo mẫu và liên hệ tới địa chỉ info@tmh-techlab.vn.<br>Chúng tôi sẽ liên hệ lại sau khi xác nhận nội dung ứng tuyển.<br>Ngoài ra, nếu có thắc mắc vui lòng liên hệ với chúng tồi."
+
+msgid "THANKS_C_TEXT_3"
+msgstr "Quay về Trang chủ"
+
+msgid "RECRUIT_TEXT_1"
+msgstr ""
+
+msgid "RECRUIT_TEXT_2"
+msgstr "Made in Tribal Media House"
+
+msgid "RECRUIT_TEXT_3"
+msgstr "Thông điệp"
+
+msgid "RECRUIT_TEXT_4"
+msgstr ""Tribal Media House Technology Lab" là công ty mới được thành lập tháng 01/2015 với mục đích tăng cường phát triển hệ thống, cải tiến các dự án từ công ty mẹ và nâng cao tốc độ phát triển dự án mới, trực thuộc công  ty Tribal Media House (Là công ty chuyên cung cấp các giải pháp/ đối tác về marketing kỹ thuật số hỗ trợ các hoạt động marketing tại Nhật Bản và trên thị trường thế giới). Chúng tôi chào đón những ứng viên muốn phát triển sự nghiệp và học hỏi văn hoá tại doanh nghiệp Nhật Bản, ứng viên muốn tìm hiểu, nắm vững về các kỹ thuật không chỉ sử dụng tại Nhật Bản mà trên toàn thế giới, ứng viên muốn mở rộng kinh nghiệm của bản thân với vai trò là thành viên thiết lập công ty, ứng viên mong muốn hoạt động nghiệp vụ với vai trò như nhà lãnh đạo, nhà quản lý trong tương lai."
+
+msgid "RECRUIT_TEXT_5"
+msgstr ""
+
+msgid "RECRUIT_TEXT_6"
+msgstr ""
+
+msgid "RECRUIT_TEXT_7"
+msgstr ""
+
+msgid "RECRUIT_TEXT_8"
+msgstr "Môi trường phát triển của chúng tôi"
+
+msgid "RECRUIT_TEXT_9"
+msgstr "Một ngày làm việc của Kỹ sư lập trình"
+
+msgid "RECRUIT_TEXT_10"
+msgstr "Đối tượng tuyển dụng"
+
+msgid "RECRUIT_TEXT_11"
+msgstr "Yêu cầu tuyển dụng"
+
+msgid "RECRUIT_TEXT_12"
+msgstr "Vị trí công việc"
+
+msgid "RECRUIT_TEXT_13"
+msgstr "Kỹ sư"
+
+msgid "RECRUIT_TEXT_14"
+msgstr "Kỹ năng cần thiết"
+
+msgid "RECRUIT_TEXT_15"
+msgstr "Có kinh nghiệm lập trình ứng dụng web sử dụng PHP trên 1 năm<br>HTML/CSS"
+
+msgid "RECRUIT_TEXT_16"
+msgstr "Kỹ năng khác"
+
+msgid "RECRUIT_TEXT_17"
+msgstr "Có kinh nghiệm lập trình sử dụng Cake PHP <br>Có kinh nghiệm lập trình sử dụng JavaScript (jQuery và AngularJs, NodeJs)<br>Có kinh nghiệm lập trình sử dụng API như của Facebook, Twitter,..<br>Thiết kế cơ sở dữ liệu sử dụng MySQL, PostgreSQL <br>Có kinh nghiệm tạo Linux server,.."
+
+msgid "RECRUIT_TEXT_18"
+msgstr "Mẫu ứng tuyển"
+
+msgid "RECRUIT_TEXT_19"
+msgstr "Họ tên *"
+
+msgid "RECRUIT_TEXT_20"
+msgstr "Yamada Taro"
+
+msgid "RECRUIT_TEXT_21"
+msgstr "Tuổi *"
+
+msgid "RECRUIT_TEXT_22"
+msgstr ""
+
+msgid "RECRUIT_TEXT_23"
+msgstr "Tên trường/ Tên công ty"
+
+msgid "RECRUIT_TEXT_24"
+msgstr ""
+
+msgid "RECRUIT_TEXT_25"
+msgstr "E-mail"
+
+msgid "RECRUIT_TEXT_26"
+msgstr "recruit@tmh-techlab.vn"
+
+msgid "RECRUIT_TEXT_27"
+msgstr "Điện thoại"
+
+msgid "RECRUIT_TEXT_28"
+msgstr "012-345-6789"
+
+msgid "RECRUIT_TEXT_29"
+msgstr "Lời nhắn"
+
+msgid "RECRUIT_TEXT_30"
+msgstr "Hãy nhập văn bản vào đây."
+
+msgid "RECRUIT_TEXT_31"
+msgstr "Tải hồ sơ"
+
+msgid "RECRUIT_TEXT_32"
+msgstr "Yamada Taro.pdf"
+
+msgid "RECRUIT_TEXT_33"
+msgstr "Gửi"
+
+msgid "RECRUIT_TEXT_50_1"
+msgstr "Chu trình phát triển"
+
+msgid "RECRUIT_TEXT_50_2"
+msgstr "Chúng tôi áp dụng theo phương thức Ajail deverlopment.<br>Trong quá trình phát triển chúng tôi phân công công việc bằng ticket, vừa trao đổi công việc qua chu trình Dev- Test- Deploy vừa phát triển. Bằng chu trình công việc lặp đi lặp lai như vậy, chúng tôi đang nâng cao độ chính xác trong công việc."
+
+msgid "RECRUIT_50_3"
+msgstr "1. Ticket"
+
+msgid "RECRUIT_50_4"
+msgstr "Phát hành ticket công việc bằng Backlog. Người thực hiện sẽ tiến hành công việc dựa theo những ticket này."
+
+msgid "RECRUIT_50_5"
+msgstr "2. Phát triển và cải thiện"
+
+msgid "RECRUIT_50_6"
+msgstr "Tiến hành phát triển sử dụng IDE như Eclipse. Vừa tiền hành phát triển và tái cấu trúc mã nguồn vừa nâng cao chất lượng mã nguồn. Phần hoàn thành phát triển sẽ được đẩy lên Git."
+
+msgid "RECRUIT_50_7"
+msgstr "3. Kiểm tra"
+
+msgid "RECRUIT_50_8"
+msgstr "Tiến hành kiểm tra tự động bằng PHPUnit, Selenium,..."
+
+msgid "RECRUIT_50_9"
+msgstr "4. Triển khai"
+
+msgid "RECRUIT_50_10"
+msgstr "Thực hiện kiểm tra bằng Jenkins, upload lên server stage và product."
+
+msgid "RECRUIT_50_11"
+msgstr "Công cụ"
+
+msgid "RECRUIT_50_12"
+msgstr "Công nghệ thông tin ngày càng phát triển thì môi trường phát triển cũng biến đổi theo. Chúng tôi sẽ đối ứng linh hoạt với sự thay đổi đó bằng cách tích cực nắm bắt các kỹ thuật mới. Chúng tôi xin giới thiệu một số công cụ chúng tôi đang sử dụng."
+
+msgid "RECRUIT_50_13"
+msgstr "CSS<br>javascript<br>AngularJs"
+
+msgid "RECRUIT_50_14"
+msgstr "memcached<br>vagrant<br>backlog<br>selenium"
+
+msgid "RECRUIT_50_15"
+msgstr "bower<br>grunt<br>compass"
+
+msgid "RECRUIT_60_1"
+msgstr "8:30"
+
+msgid "RECRUIT_60_2"
+msgstr "11:55"
+
+msgid "RECRUIT_60_3"
+msgstr "13:00"
+
+msgid "RECRUIT_60_4"
+msgstr ""
+
+msgid "RECRUIT_60_5"
+msgstr "Đến công ty"
+
+msgid "RECRUIT_60_6"
+msgstr "Họp buổi sáng và học tiếng Nhật"
+
+msgid "RECRUIT_60_7"
+msgstr "Họp nhóm Dev"
+
+msgid "RECRUIT_60_8"
+msgstr "Thực hiện công việc"
+
+msgid "RECRUIT_60_9"
+msgstr "Nghỉ trưa"
+
+msgid "RECRUIT_60_10"
+msgstr "Bắt đầu công việc buổi chiều"
+
+msgid "RECRUIT_60_11"
+msgstr "Nghỉ giữa giờ"
+
+msgid "RECRUIT_60_12"
+msgstr "5:30"
+
+msgid "RECRUIT_60_13"
+msgstr "Kết thúc công việc"
+
+msgid "RECRUIT_70_1"
+msgstr "Đối tượng tuyển dụng"
+
+msgid "RECRUIT_70_2"
+msgstr "Tại TMH Tech. Lab có ba yếu tố không thể thiếu để phát triển bản thân và công ty, đó là "Sự thử thách", "Hoạt động nhóm" và " Cam kết". Chúng tôi vui mừng chào đón những ứng viên cùng tôn trọng và sở hữu ba yếu tố dưới đây."
+
+msgid "RECRUIT_70_3"
+msgstr "Thử thách"
+
+msgid "RECRUIT_70_4"
+msgstr "Ngày càng có nhiều công nghệ kỹ thuật, môi trường được thay đổi nhằm phát triển loại hình dịch vụ mới. Do đó, việc lập trình trở nên phức tạp và yêu cầu trình độ ở mức cao hơn nữa.<br>Tại TMH Tech. Lab, chúng tôi luôn thử thách bản thân và tích cực áp dụng các công nghệ kỹ thuật. Vì vậy, ngoài việc duy trì phương pháp vốn có, chúng tôi chủ động tích cực học hỏi kỹ thuật mới và thử thách chúng mà không ngại thất bại."
+
+msgid "RECRUIT_70_5"
+msgstr "Hoạt động nhóm"
+
+msgid "RECRUIT_70_6"
+msgstr "Dù là dự án quy mô nhỏ thế nào đi nữa thỉ chỉ nhờ một người cũng không thể hoàn thành được dự án đó. Chúng ta chỉ có thể tạo ra dịch vụ cho nhiều người dùng, đưa ra những ý tưởng mới bằng sự hợp tác chung sức từ nhiều người, nhiều bộ phận từ nhà thiết kế, quản lý giám sát, kỹ sư lập trình,... Hoạt động nhóm tại TMH Tech. Lab là mọi thành viên cùng tôn trọng, cùng tin tưởng, cùng khích lệ và giúp đỡ nhau."
+
+msgid "RECRUIT_70_7"
+msgstr "Cam kết"
+
+msgid "RECRUIT_70_8"
+msgstr "TMH Tech. Lab đòi hỏi mọi thành viên phải ý thức được tính trách nhiệm đối với yêu cầu và kỳ vọng từ khách hàng và tổ nhóm (như cam kết về chất lượng, quy trình,...). Công ty không phải là môi trường để học tập mà là nơi để mọi người nâng cao kỹ năng về công việc, về kỹ thuật công nghệ và phát huy thể hiện những kỹ năng đó. Chúng tôi sẽ tích cực hỗ trợ mọi người thực hiện và phát triển kỹ năng của bản thân trong công việc và giao tiếp. Chúng tôi cam kết tạo ra môi trường làm việc để phát huy khả năng và sự nhiệt tình của mọi người.<br>Hãy cùng tạo dựng môi trường chuyên nghiệp và phát triển TMH Tech. Lab!"
+
+msgid "TITLE_1"
+msgstr "Trang chủ"
+
+msgid "TITLE_2"
+msgstr "Tuyển dụng"
+
+msgid "TITLE_3"
+msgstr "Sản phẩm"
+
+msgid "TITLE_5"
+msgstr "Nhân viên"
+
+msgid "TITLE_6"
+msgstr "Giới thiệu"
+
+msgid "TITLE_7"
+msgstr "Liên hệ"
+
+msgid "TITLE_8"
+msgstr "Địa chỉ"
+
