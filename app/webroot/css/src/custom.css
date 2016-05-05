@@ -184,3 +184,71 @@ input + .iris-picker {
 .styler_bg_color, .styler_hover_bg_color:hover, .styler_parent_active.active > .styler_active_bg_color {
     background-color: #a1a64a !important;
 }
+
+/*Menu Homepage*/
+.supmenu, .submenu {
+    position: relative;
+}
+
+.supmenu > .dropdown-menu {
+    top: 40px;
+    margin-top: -6px;
+    margin-left: -1px;
+}
+.submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 4px 0 4px 4px;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.submenu>a:after {
+    border-left-color: #ccc;
+}
+
+.supmenu>a:after {
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+}
+
+.nav-pills > li > a {
+    border-radius: 0px!important;
+}
+
+#top_menu .nav-pills>.active>a, #top_menu .nav-pills>li>a:hover {
+    background: #A1A64A;
+    border-radius: 0;
+    color: #fff;
+}
+
+.supmenu:hover>a, .supmenu:focus>a, .submenu:hover>a, .submenu:focus>a {
+    color: #FFFFFF;
+    background: #A1A64A;
+}

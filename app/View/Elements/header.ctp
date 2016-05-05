@@ -37,14 +37,11 @@
                                         <!-- edit navigation menu -->
                                         <li class="styler_parent_active active"><a href="/" class="styler_hover_bg_color styler_active_bg_color">TRANG CHỦ</a></li>
                                         <li class="styler_parent_active"><a href="#" class="styler_hover_bg_color styler_active_bg_color">GIỚI THIỆU</a></li>
-                                        
-                                        <li class="styler_parent_active">
-                                            <a href="javascript:void(0);" class="styler_hover_bg_color styler_active_bg_color" data-toggle="dropdown" aria-expanded="true">
-                                                SẢN PHẨM
-                                            </a>
-                                            <ul class="dropdown-menu hidden-sm hidden-xs">
-                                                <li class="styler_parent_active">
-                                                    <a href="javascript:void(0);" class="styler_hover_bg_color styler_active_bg_color" data-toggle="dropdown" aria-expanded="true">TEM NHÃN </a>
+                                        <li class="dropdown-submenu supmenu styler_parent_active">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">SẢN PHẨM</a>
+                                            <ul class="dropdown-menu multi-level">
+                                                <li class="dropdown-submenu submenu styler_parent_active">
+                                                    <a href="#" class="dropdown-toggle styler_hover_bg_color styler_active_bg_color" data-toggle="dropdown" aria-expanded="true">TEM NHÃN </a>
                                                     <ul class="dropdown-menu">
                                                         <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">RUY BĂNG MÃ VẠCH</a></li>
                                                         <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">MÁY IN MÃ VẠCH</a></li>
@@ -53,21 +50,12 @@
                                                         <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">THẺ TREO</a></li>
                                                     </ul>
                                                 </li>
-                                                
-                                                
                                                 <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">RUY BĂNG MÃ VẠCH</a></li>
                                                 <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">MÁY IN MÃ VẠCH</a></li>
                                                 <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">MÁY ĐỌC MÃ VẠCH</a></li>
                                                 <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">ĐẦU IN MÃ VẠCH</a></li>
                                                 <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">THẺ TREO</a></li>
-                                                <!--
-                                                <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">TEM IN MÃ VẠCH</a></li>
-                                                <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">NHÃN THỰC PHẨM</a></li>
-                                                <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">NHÃN DƯỢC PHẨM</a></li>
-                                                <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">NHÃN MỸ PHẨM</a></li>
-                                                <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">NHÃN ĐIỆN TỬ</a></li>
-                                                -->
-                                            </ul>
+                                              </ul>  
                                         </li>
                                         <li class="styler_parent_active"><a href="#" class="styler_hover_bg_color styler_active_bg_color"> TIN TỨC</a></li>
                                         <li class="styler_parent_active">
