@@ -42,7 +42,7 @@
                                             <a href="javascript:void(0);" class="styler_hover_bg_color styler_active_bg_color" data-toggle="dropdown" aria-expanded="true">
                                                 SẢN PHẨM
                                             </a>
-                                            <ul class="dropdown-menu">
+                                            <ul class="dropdown-menu hidden-sm hidden-xs">
                                                 <li class="styler_parent_active">
                                                     <a href="javascript:void(0);" class="styler_hover_bg_color styler_active_bg_color" data-toggle="dropdown" aria-expanded="true">TEM NHÃN </a>
                                                     <ul class="dropdown-menu">
