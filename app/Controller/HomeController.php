@@ -4,11 +4,11 @@ class HomeController extends AppController{
 		$this->set ( 'title_for_layout', __ ( 'TRANG CHỦ' ) );
 		//$this->loadModel('Post');
 		//$this->set('posts', $this->Post->find('all',array('order'=>'Post.id DESC')));
-	//	$this->set('post', $post);
+		//	$this->set('post', $post);
 		//$this->set ( 'auth', $this->Auth->user () );
 		//debug($post['Post']['title']);
-		
 	}
+	
 	public function lienhe(){
 		
 		$this->set ( 'title_for_layout', __ ( 'LIÊN HỆ' ) );
