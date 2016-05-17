@@ -1,13 +1,16 @@
-r <?php
+<?php
 App::uses ( 'AppController', 'Controller' );
 class PostsController extends AppController {
 	public $uses = [ 
 			'Post',
 			'User' 
 	];
-	// public function beforeFilter() {
-	// $this->Auth->allow('add');
-	// }
+	public function beforeFilter() {
+        parent::beforeFilter();
+        $this->layout = 'admin';  
+
+        $this->Auth->allow('');
+    }
 	
 	/*
 	 * public $helpers = array('Html', 'Form');
@@ -34,6 +37,16 @@ class PostsController extends AppController {
 	 */
 	// Index
 	public function index() {
+/*
+		$douong=$this->Post->find('all',array('order'=>'Post.id DESC','conditions'=>array('Post.theloai'=>'Đồ Uống')));
+		$monngon=$this->Post->find('all',array('order'=>'Post.id DESC','conditions'=>array('Post.theloai'=>'Món Ngon')));
+		$amthuc=$this->Post->find('all',array('order'=>'Post.id DESC','conditions'=>array('Post.theloai'=>'Ẩm Thực')));
+		$nhahang=$this->Post->find('all',array('order'=>'Post.id DESC','conditions'=>array('Post.theloai'=>'Nhà Hàng')));
+		$this->set('douong', $douong);
+		$this->set('monngon', $monngon);
+		$this->set('amthuc', $amthuc);
+		$this->set('nhahang', $nhahang);
+*/
 		$this->paginate = array (
 				'conditions' => array (
 						'Post.title LIKE' => 'a%' 
@@ -46,12 +59,21 @@ class PostsController extends AppController {
 		$this->loadModel ( 'User' );
 		$this->set ( 'auth', $this->Auth->user () );
 		$this->set ( 'users', $this->User->find ( 'all' ) );
+		
 	}
 	
 	public function view($slug = null) {
 		$this->set ( 'posts', $this->Post->find ( 'all', array (
 				'order' => 'Post.id DESC' 
 		) ) );
+		$douong=$this->Post->find('all',array('order'=>'Post.id DESC','conditions'=>array('Post.theloai'=>'Đồ Uống')));
+		$monngon=$this->Post->find('all',array('order'=>'Post.id DESC','conditions'=>array('Post.theloai'=>'Món Ngon')));
+		$amthuc=$this->Post->find('all',array('order'=>'Post.id DESC','conditions'=>array('Post.theloai'=>'Ẩm Thực')));
+		$nhahang=$this->Post->find('all',array('order'=>'Post.id DESC','conditions'=>array('Post.theloai'=>'Nhà Hàng')));
+		$this->set('douong', $douong);
+		$this->set('monngon', $monngon);
+		$this->set('amthuc', $amthuc);
+		$this->set('nhahang', $nhahang);
 		if (! $slug) {
 			throw new NotFoundException ( __ ( 'Invalid post' ) );
 		}
@@ -73,6 +95,8 @@ class PostsController extends AppController {
 			// debug($Post);
 			// exit;
 			$body = $Post ['Post'] ['body'];
+			$Post['Post']['slug'] = $this->to_slug($Post['Post']['title']);
+			/*
 			$get_link = '#img src="(.*?)"#';
 			preg_match ( $get_link, $body, $match );
 			$Post['Post']['slug'] = $this->to_slug($Post['Post']['title']);
@@ -82,6 +106,7 @@ class PostsController extends AppController {
 				$image = $match [1];
 				$Post ['Post'] ['image'] = $image;
 			}
+			*/
 			$this->request->data ['Post'] ['user_id'] = $this->Auth->user ( 'id' );
 			$this->Post->create ();
 			if ($this->Post->save ( $Post )) {
@@ -97,6 +122,14 @@ class PostsController extends AppController {
 	}
 	// Edit function
 	public function edit($id = null) {
+		$douong=$this->Post->find('all',array('order'=>'Post.id DESC','conditions'=>array('Post.theloai'=>'Đồ Uống')));
+		$monngon=$this->Post->find('all',array('order'=>'Post.id DESC','conditions'=>array('Post.theloai'=>'Món Ngon')));
+		$amthuc=$this->Post->find('all',array('order'=>'Post.id DESC','conditions'=>array('Post.theloai'=>'Ẩm Thực')));
+		$nhahang=$this->Post->find('all',array('order'=>'Post.id DESC','conditions'=>array('Post.theloai'=>'Nhà Hàng')));
+		$this->set('douong', $douong);
+		$this->set('monngon', $monngon);
+		$this->set('amthuc', $amthuc);
+		$this->set('nhahang', $nhahang);
 		if (! $id) {
 			throw new NotFoundException ( __ ( 'Invalid post' ) );
 		}

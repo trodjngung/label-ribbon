@@ -5,9 +5,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => '127.0.0.1',
-		'login' => 'root',
-		'password' => '',
-		'database' => 'chi_360days',
+		'login' => 'labelrib_lable',
+		'password' => 'Chi9nguyen',
+		'database' => 'labelrib_lable',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);

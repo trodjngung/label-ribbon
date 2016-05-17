@@ -10,7 +10,7 @@
 		<!-- End meta data -->
 		<!-- styles -->
 		<?php echo $this->element ( 'css' ); ?>
-		<!-- End styles -->
+
 		<script type="text/javascript" charset="UTF-8" src="http://maps.googleapis.com/maps-api-v3/api/js/23/10/common.js"></script>
 		<script type="text/javascript" charset="UTF-8" src="http://maps.googleapis.com/maps-api-v3/api/js/23/10/util.js"></script>
 		<script type="text/javascript" charset="UTF-8" src="http://maps.googleapis.com/maps-api-v3/api/js/23/10/stats.js"></script>

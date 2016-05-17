@@ -1,66 +1,76 @@
-<?php // app/Controller/UsersController.php
+<?php
+/**
+  * This file is manage all user, login, logout systems.
+  * Developed by PHP language program, use Framework Cakephp.
+  * Copyright (c) 2016 by  OREGON - VIET INVESTMENT DEVELOPMENT MEDIA TECHNOLOGY COMPANY LIMITED
+  * Short name: OREGON CO.,LTD
+  * Website: http://vietoregon-tech.com/?lang=eng 
+  * Email: vietoregon.tech.com@gmail.com
+  * Thanks and best regard !
+  * —————————————————————————————————————
+  * Đây là file dùng để quản lí tất cả các người dùng, đăng nhập và thoát.
+  * Phát triển bởi ngôn ngữ lập trình PHP, sử dụng Framework CakePHP
+  * Quyền tác giả (c) 2016 CÔNG TY TNHH ĐẦU TƯ PHÁT TRIỂN CÔNG NGHỆ TRUYỀN THÔNG VIỆT-OREGON
+  * Tên ngắn giao dịch: OREGON CO.,LTD
+  * Website: http://vietoregon-tech.com/?lang=vn
+  * Địa chỉ Email: vietoregon.tech.com@gmail.com
+  * Cám ơn quý đối tác !
+  **/
+
+// app/Controller/UsersController.php
 App::uses('AppController', 'Controller');
 
 class UsersController extends AppController {
 
-	public $components = array(
-			'Auth' => array(
-					'Session',
-					'Auth' => array(
-							'Form' => array(
-									'userModel' => 'User',
-									'fields' => array(
-											'username' => 'username',
-											'password' => 'password'
-									)
-							)
-					),
-					'loginRedirect' => array('controller' => 'posts', 'action' => 'index'),
-					'logoutRedirect' => array('controller' => 'home', 'action' => 'trangchu'),
-					'loginAction' => array('controller' => 'users', 'action' => 'login'),
-					
-			)
-	);	
-	
+    public $uses = array('User');
+
     public function beforeFilter() {
-    	$this->Auth->allow('add');
-        //parent::beforeFilter();
-        //$this->Auth->allow('*');
+        parent::beforeFilter();
+        $this->layout = 'admin';  
+
+        $this->Auth->allow('login', 'register', 'edit');
     }
-    
 
     public function login() {
-    	if ($this->Auth->loggedIn()) {
-    		return $this->redirect( $this->Auth->redirectUrl());
-    	}
-    	 
-    	if ($this->request->is('post')) {
-    		if ($this->Auth->login()) {
-    			return $this->redirect(array('controller'=>'posts','action' => 'index'));
-    		}
-    		$this->Session->setFlash(__('Invalid username or password, try again'));
-    	
-    	}
+        if ($this->Auth->loggedIn()) {
+            return $this->redirect( $this->Auth->redirectUrl());
+        }
+        if ($this->request->is('post')) {
+            if ($this->Auth->login()) {
+                return $this->redirect($this->Auth->redirectUrl());
+            }
+            $this->Session->setFlash(
+                'Invalid username or password, try again.',
+                'default',
+                array('class' => 'error')
+            );
+        }
     }
-    
+
     public function logout() {
-    	$this->Session->destroy();
-    	return $this->redirect($this->Auth->logout());
+        return $this->redirect($this->Auth->logout());
     }
+	
     public function index() {
+        $this->isAdmin();
         $this->User->recursive = 0;
         $this->set('users', $this->paginate());
-        $this->set('auth', $this->Auth->user());
     }
-    public function add() {
+    public function register() {
         if ($this->request->is('post')) {
             $this->User->create();
             if ($this->User->save($this->request->data)) {
-                $this->Session->setFlash(__('The user has been saved'));
+                $this->Session->setFlash(
+                    'The user has been saved.',
+                    'default',
+                    array('class' => 'succes')
+                );
                 return $this->redirect(array('action' =>'login'));
             }
             $this->Session->setFlash(
-                __('The user could not be saved. Please, try again.')
+                'The user could not be saved. Please, try again.',
+                'default',
+                array('class' => 'error')
             );
         }
     }
@@ -72,29 +82,46 @@ class UsersController extends AppController {
     	$this->set('user', $this->User->read(null, $id));
     }
     public function edit($id = null) {
+        // $this->isAdmin();    
         $this->User->id = $id;
         if (!$this->User->exists()) {
             throw new NotFoundException(__('Invalid user'));
         }
-        if ($this->request->is('staff') || $this->request->is('put')) {
-            if ($this->User->save($this->request->data)) {
-                $this->Session->setFlash(__('The user has been saved'));
-                return $this->redirect(array('action' => 'index'));
+        $this->User->set($this->request->data);
+        if ($this->User->validates()) {
+            if ($this->request->is('staff') || $this->request->is('put')) {
+                if ($this->User->save($this->request->data)) {
+                    $this->Session->setFlash(
+                        'The user has been saved.',
+                        'default',
+                        array('class' => 'succes')
+                    );
+                    return $this->redirect(array('action' => 'index'));
+                }
+                $this->Session->setFlash(
+                    'The user could not be saved. Please, try again.',
+                    'default',
+                    array('class' => 'error')
+                );
+            } else {
+                $this->request->data = $this->User->read(null, $id);
+                unset($this->request->data['User']['password']);
             }
-            $this->Session->setFlash(
-                __('The user could not be saved. Please, try again.')
-            );
         } else {
-            $this->request->data = $this->User->read(null, $id);
-            unset($this->request->data['User']['password']);
+            $errors = $this->User->validationErrors;
+            $this->set('errors', $errors);
         }
         $this->set('user', $this->User->read(null, $id));
     }
-
     public function delete($id = null) {
         // Prior to 2.5 use
         // $this->request->onlyAllow('post');
 
+        $this->isAdmin();
+        if ($this->Auth->user()['id'] == $id) {
+            $this->redirect(array('controller' => 'documents', 'action' => 'manage'));
+        }
+        
         $this->request->allowMethod('post');
 
         $this->User->id = $id;
@@ -102,11 +129,27 @@ class UsersController extends AppController {
             throw new NotFoundException(__('Invalid user'));
         }
         if ($this->User->delete()) {
-            $this->Session->setFlash(__('User deleted'));
+            $this->Session->setFlash(
+                'User deleted.',
+                'default',
+                array('class' => 'succes')
+            );
             return $this->redirect(array('action' => 'index'));
         }
-        $this->Session->setFlash(__('User was not deleted'));
+        $this->Session->setFlash(
+                'User was not deleted.',
+                'default',
+                array('class' => 'error')
+            );
         return $this->redirect(array('action' => 'index'));
     }
+    public function isAdmin()
+    {
+        $user_id = $this->Auth->user()['id'];
+        $user_data =$this->User->read(null, $user_id)['User'];
 
+        if ($user_data["role"] != 'admin') {
+            $this->redirect(array('controller' => 'documents', 'action' => 'manage'));
+        }
+    }
 }

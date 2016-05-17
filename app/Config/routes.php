@@ -32,15 +32,15 @@ Router::connect ( '/admin/posts', array (
 Router::connect ( '/posts/:action', array (
 		'controller' => 'posts' 
 ) );
-Router::connect ( '/admin/user', array (
+Router::connect ( '/admin', array (
 		'controller' => 'users',
-		'action' => 'index' 
+		'action' => 'index', 'login' 
 )
  );
 Router::connect ( '/admin/user/:action', array (
 		'controller' => 'users' 
 ) );
-Router::connect ( '/tintuc/*', array (
+Router::connect ( '/sanpham/*', array (
 		'controller' => 'posts',
 		'action'=>'view'
 ) );
