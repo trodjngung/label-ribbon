@@ -26,12 +26,26 @@ class UsersController extends AppController {
 
     public function beforeFilter() {
         parent::beforeFilter();
-        $this->layout = 'admin';  
-
-        $this->Auth->allow('login', 'register', 'edit');
+        $this->Auth->allow('login', 'register');
     }
+    
+	public $components = array(
+		'Auth' => array(
+			'Session',
+			'Auth' => array(
+				'Form' => array(
+					'userModel' => 'User',
+					'fields' => array(
+						'username' => 'username',
+						'password' => 'password'
+					)
+				)
+			),
+		)
+	);	
 
     public function login() {
+        $this->layout = '';
         if ($this->Auth->loggedIn()) {
             return $this->redirect( $this->Auth->redirectUrl());
         }
@@ -40,7 +54,7 @@ class UsersController extends AppController {
                 return $this->redirect($this->Auth->redirectUrl());
             }
             $this->Session->setFlash(
-                'Invalid username or password, try again.',
+                'Username hoặc password sai, vui lòng thử lại.',
                 'default',
                 array('class' => 'error')
             );
@@ -52,7 +66,7 @@ class UsersController extends AppController {
     }
 	
     public function index() {
-        $this->isAdmin();
+        // $this->isAdmin();
         $this->User->recursive = 0;
         $this->set('users', $this->paginate());
     }
@@ -61,14 +75,14 @@ class UsersController extends AppController {
             $this->User->create();
             if ($this->User->save($this->request->data)) {
                 $this->Session->setFlash(
-                    'The user has been saved.',
+                    'Cập nhật người dùng thành công.',
                     'default',
                     array('class' => 'succes')
                 );
                 return $this->redirect(array('action' =>'login'));
             }
             $this->Session->setFlash(
-                'The user could not be saved. Please, try again.',
+                'Cập nhật người dùng không thành công, vui lòng thử lại.',
                 'default',
                 array('class' => 'error')
             );
@@ -77,7 +91,12 @@ class UsersController extends AppController {
     public function view($id = null) {
     	$this->User->id = $id;
     	if (!$this->User->exists()) {
-    		throw new NotFoundException(__('Invalid user'));
+    		$this->Session->setFlash(
+                'Người dùng không tồn tại.',
+                'default',
+                array('class' => 'succes')
+            );
+            return $this->redirect(array('action' => 'index'));
     	}
     	$this->set('user', $this->User->read(null, $id));
     }
@@ -85,21 +104,26 @@ class UsersController extends AppController {
         // $this->isAdmin();    
         $this->User->id = $id;
         if (!$this->User->exists()) {
-            throw new NotFoundException(__('Invalid user'));
+            $this->Session->setFlash(
+                'Người dùng không tồn tại.',
+                'default',
+                array('class' => 'succes')
+            );
+            return $this->redirect(array('action' => 'index'));
         }
         $this->User->set($this->request->data);
         if ($this->User->validates()) {
             if ($this->request->is('staff') || $this->request->is('put')) {
                 if ($this->User->save($this->request->data)) {
                     $this->Session->setFlash(
-                        'The user has been saved.',
+                        'Cập nhật người dùng thành công.',
                         'default',
                         array('class' => 'succes')
                     );
                     return $this->redirect(array('action' => 'index'));
                 }
                 $this->Session->setFlash(
-                    'The user could not be saved. Please, try again.',
+                    'Cập nhật người dùng không thành công, vui lòng thử lại.',
                     'default',
                     array('class' => 'error')
                 );
@@ -117,27 +141,32 @@ class UsersController extends AppController {
         // Prior to 2.5 use
         // $this->request->onlyAllow('post');
 
-        $this->isAdmin();
+        // $this->isAdmin();
         if ($this->Auth->user()['id'] == $id) {
-            $this->redirect(array('controller' => 'documents', 'action' => 'manage'));
+            $this->redirect(array('controller' => 'users', 'action' => 'index'));
         }
         
         $this->request->allowMethod('post');
 
         $this->User->id = $id;
         if (!$this->User->exists()) {
-            throw new NotFoundException(__('Invalid user'));
+            $this->Session->setFlash(
+                'Người dùng không tồn tại.',
+                'default',
+                array('class' => 'succes')
+            );
+            return $this->redirect(array('action' => 'index'));
         }
         if ($this->User->delete()) {
             $this->Session->setFlash(
-                'User deleted.',
+                'Xóa người dùng thành công.',
                 'default',
                 array('class' => 'succes')
             );
             return $this->redirect(array('action' => 'index'));
         }
         $this->Session->setFlash(
-                'User was not deleted.',
+                'Xóa người dùng không thành công, vui lòng thử lại.',
                 'default',
                 array('class' => 'error')
             );
@@ -149,7 +178,11 @@ class UsersController extends AppController {
         $user_data =$this->User->read(null, $user_id)['User'];
 
         if ($user_data["role"] != 'admin') {
-            $this->redirect(array('controller' => 'documents', 'action' => 'manage'));
+            $this->redirect(array('controller' => 'users', 'action' => 'logout'));
         }
+    }
+    function beforeRender() {
+        parent::beforeRender();
+        $this->set('layout_name', 'Người dùng');
     }
 }

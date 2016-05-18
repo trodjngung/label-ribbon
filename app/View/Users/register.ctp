@@ -1,48 +1,68 @@
-<div class="container content mgbt20">
-	<div class="tab-v1">
-		<ul class="nav nav-tabs">
-			<li class="active"><a href="#home-1" data-toggle="tab">Register</a></li>
-			<li class="" style="margin-left: 5px;border:1px solid #ccc;">
-				<?php
-					echo $this->Html->link ( 'Login', array (
-						'controller' => 'admin/user',
-						'action' => 'login'
-					) );
-				?>
-			</li>
-		</ul>
-	</div>
-</div>
-<div class="mgbt10">&nbsp;</div>
-<div class="container">
-	<div class="col-md-3 col-sm-3">&nbsp;</div>
-	<div class="col-md-6 col-sm-6 form-register">
-		<h2 class="pdbt10">Input user information</h2>
-		<?php 
-			echo $this->Form->create('User');
-			
-			echo $this->Form->input ( 'username', array('type'=>'text','label'=>false,'placeholder'=>'Username', 'class'=>'form-control mgt20 required') );
+<!-- Create User -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<!-- Zero Configuration Table -->
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<?php echo $this->Html->link ( 'Users', array (
+						'controller' => 'users',
+						'action' => 'index'
+					) ); ?> / 
+					<a href="">User register</a>
+				</div>
+				<div class="panel-body">
+					<form action="<?php echo $appRoot . '/users/register/'; ?>" class="sky-form" novalidate="novalidate" id="UserEditForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>
+						<div class="col-md-12">
+							<div class="row mgbt20 mgt20">
+								<div class="col-md-3">&nbsp;</div>
+								<label class="col-md-2 control-label alignRight mgt5">Username</label>
+								<div class="col-md-4">
+									<input name="data[User][username]" placeholder="UserName" maxlength="50" type="text" id="UserUsername" class="form-control input-sm" required="required">
+								</div>
+								<div class="col-md-3">&nbsp;</div>
+							</div>
+							<div class="row mgbt20">
+								<div class="col-md-3">&nbsp;</div>
+								<label class="col-md-2 control-label alignRight mgt5">Password</label>
+								<div class="col-md-4">
+									<input name="data[User][password]" placeholder="Password" type="password" id="UserPassword" class="form-control input-sm" required="required">
+								</div>
+								<div class="col-md-3">&nbsp;</div>
+							</div>
+							<div class="row mgbt20">
+								<div class="col-md-3">&nbsp;</div>
+								<label class="col-md-2 control-label alignRight mgt5">Password Confirm</label>
+								<div class="col-md-4">
+									<input name="data[User][password]" placeholder="Confirm Password" type="password" id="UserPassword" class="form-control input-sm" required="required">
+								</div>
+								<div class="col-md-3">&nbsp;</div>
+							</div>
+							<div class="row mgbt20">
+								<div class="col-md-3">&nbsp;</div>
+								<label class="col-md-2 control-label alignRight mgt5">Password Confirm</label>
+								<div class="col-md-4">
+									<select name="data[User][role]" class="form-control input-sm" style="padding: 7px;" id="UserRole" required="required">
+										<option value="admin">Admin</option>
+										<option value="author">Author</option>
+									</select>
+								</div>
+								<div class="col-md-3">&nbsp;</div>
+							</div>
 
-			echo $this->Form->input ( 'password',array('label'=>false,'placeholder'=>'New Password','class'=>'form-control mgt20 required') );
 
-			echo $this->Form->input ( 'password_confirm',array('label'=>false,'placeholder'=>'Confirm New Password','class'=>'form-control mgt20 required', 'type' => 'password') );
 
-			echo $this->Form->input ( 'role', array (
-				'label' => false,
-				'options' => array (
-					'admin' => 'Admin',
-					'author' => 'Author'
-				),
-				'class' => 'mgt20',
-				'style' => "padding: 7px;"
-			));
-		?>
-		<div class="alignCenter mgt20">
-			<button type="submit" class="btn-u"><?php echo __('Create')?></button>
+							<div class="row mgbt20">
+								<div class="col-md-5">&nbsp;</div>
+								<div class="col-md-4">
+									<button type="submit" class="btn btn-primary btn-sm"><?php echo __('Create user')?></button>
+								</div>
+								<div class="col-md-3">&nbsp;</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div class="col-md-3 col-sm-3">&nbsp;</div>
 </div>
-
-
-

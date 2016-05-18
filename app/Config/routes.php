@@ -35,10 +35,12 @@ Router::connect ( '/posts/:action', array (
 Router::connect ( '/admin', array (
 		'controller' => 'users',
 		'action' => 'index', 'login' 
-)
- );
-Router::connect ( '/admin/user/:action', array (
+) );
+Router::connect ( '/admin/user/:action/*', array (
 		'controller' => 'users' 
+) );
+Router::connect ( '/admin/product/:action/*', array (
+		'controller' => 'products' 
 ) );
 Router::connect ( '/sanpham/*', array (
 		'controller' => 'posts',
