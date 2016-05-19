@@ -112,3 +112,5 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+//Product Img Upload Dir
+define('PRODUCT_IMG_FOLDER', realpath('..'.DS.'webroot'.DS.'img'.DS.'products'));

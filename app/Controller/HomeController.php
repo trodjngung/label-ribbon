@@ -1,5 +1,11 @@
 <?php
 class HomeController extends AppController{
+
+	public function beforeFilter() {
+        parent::beforeFilter();
+        $this->layout = 'default';
+    }
+
 	public function trangchu(){
 		$this->set ( 'title_for_layout', __ ( 'TRANG CHỦ' ) );
 		//$this->loadModel('Post');

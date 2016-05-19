@@ -1,96 +1,53 @@
-
-<div class="breadcrumbs">
-	<div class="container">
-		<h1 class="pull-left">Edit User</h1>
-		<ul class="pull-right breadcrumb">
-			<li><a href="">User</a></li>
-			<li class="active"><a href="">edit</li>
-		</ul>
-	</div>
-	<!--/container-->
-</div>
-<div class="container content">
-
-	<div class="tab-v1">
-		<ul class="nav nav-tabs">
-			<li class="active"><a href="#home-1" data-toggle="tab">Edit User </a></li>
-
-		</ul>
-	</div>
-
-</div>
-<div class="container content-sm">
-	<div class="row about-me">
-		<div class="col-sm-4 shadow-wrapper md-margin-bottom-40">
-			<div class="box-shadow shadow-effect-2">
-				<img class="img-responsive img-bordered full-width"
-					src="/img/user/User-icon.png" alt="">
-
+<!-- View User -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<!-- Zero Configuration Table -->
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<?php echo $this->Html->link ( $user['User']['username'], array (
+						'controller' => 'users',
+						'action' => 'view',
+						$user['User']['id']
+					) ); ?> / 
+					<a href="">Edit user</a>
+				</div>
+				<div class="panel-body">
+					<form action="<?php echo $appRoot . '/users/edit/' . $user['User']['id']; ?>" class="sky-form" novalidate="novalidate" id="UserEditForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="PUT"></div>
+						<div class="col-md-12">
+							<div class="row mgbt20 mgt20">
+								<div class="col-md-1">&nbsp;</div>
+								<label class="col-md-2 control-label alignRight mgt5">Username</label>
+								<div class="col-md-8">
+									<input name="data[User][username]" placeholder="NewUserName" maxlength="50" type="text" value="<?php echo $user['User']['username']; ?>" id="UserUsername" class="form-control input-sm" required="required" readonly="readonly">
+								</div>
+								<div class="col-md-1">&nbsp;</div>
+							</div>
+							<div class="row mgbt20">
+								<div class="col-md-1">&nbsp;</div>
+								<label class="col-md-2 control-label alignRight mgt5">Password</label>
+								<div class="col-md-8">
+									<input name="data[User][password]" placeholder="New Password" type="password" id="UserPassword" class="form-control input-sm" required="required">
+								</div>
+								<div class="col-md-1">&nbsp;</div>
+							</div>
+							<div class="row mgbt20">
+								<div class="col-md-1">&nbsp;</div>
+								<label class="col-md-2 control-label alignRight mgt5">Password Confirm</label>
+								<div class="col-md-8">
+									<input name="data[User][password]" placeholder="Confirm New Password" type="password" id="UserPassword" class="form-control input-sm" required="required">
+								</div>
+								<div class="col-md-1">&nbsp;</div>
+							</div>
+							<div class="row mgbt20">
+								<div class="col-md-12 alignCenter">
+									<button type="submit" class="btn btn-primary btn-sm"><?php echo __('Update user')?></button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
-		<div class="col-sm-4">
-		<?php echo $this->Form->create('User',array('class'=>'sky-form','novalidate'=>'novalidate')); ?>
-		
-				<header>Edit User</header>
-			<fieldset>
-				<section>
-					<label class="input"> <i class="icon-append fa fa-user"></i> 
-						 <?php  echo $this->Form->input ( 'username',array('type'=>'text','label'=>false,'placeholder'=>'NewUserName') ); ?>   
-						<b
-						class="tooltip tooltip-bottom-right">Needed to enter the website</b>
-					</label>
-				</section>
-				
-
-				<section>
-					<label class="input"> <i class="icon-append fa fa-lock"></i>
-					 <?php  echo $this->Form->input ( 'password',array('label'=>false,'placeholder'=>'New Password','class'=>'form-control') ); ?>
-					 <b class="tooltip tooltip-bottom-right">Don't
-							forget your password</b>
-					</label>
-				</section>
-
-				<section>
-					<label class="input"> <i class="icon-append fa fa-lock"></i>
-					<?php  echo $this->Form->input ( 'password',array('label'=>false,'placeholder'=>'Confirm New Password','class'=>'form-control') ); ?> <b
-						class="tooltip tooltip-bottom-right">Don't forget your password</b>
-					</label>
-				</section>
-			</fieldset>
-			<fieldset>
-				<section>
-					<label class="select"> 
-					
-					<?php
-						echo $this->Form->input ( 'role', array (
-													'label' => false,
-														'options' => array (
-															'admin' => 'Admin',
-																'author' => 'Author' 
-																	) 
-																		) );
-																			?>
-					
-					</label>														
-				</section>
-
-			</fieldset>
-			<footer>
-				<button type="submit" class="btn-u"><?php echo __('Save')?></button>
-			</footer>
-
-			<hr>
-			<h4> 	 <?php
-			echo $this->Html->link ( 'Comeback', array (
-					'action' => 'view',
-					$user ['User'] ['id'] 
-			) );
-			?>		
-		</h4>
-		</div>
-
 	</div>
 </div>
-
-
-

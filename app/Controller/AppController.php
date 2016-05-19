@@ -31,8 +31,8 @@ class AppController extends Controller {
         'Cookie',
         'Auth' => array(
             'loginRedirect' => array(
-                'controller' => 'admin/documents',
-                'action' => 'manage'
+                'controller' => 'users',
+                'action' => 'index'
             ),
             'logoutRedirect' => array(
                 'controller' => 'users',
@@ -51,6 +51,11 @@ class AppController extends Controller {
     );
 	private $__standardLanguage = array('vn','eng','jpn');
     
+	function beforeFilter() {
+		$this->__switch_lang ();
+		$this->layout = 'dashboards/index';
+        $this->set('appRoot', $this->base);
+	}
 	private function __switch_lang() {
 		if(isset ( $this->request->query ['lang'] )){
 			if (in_array($this->request->query ['lang'], $this->__standardLanguage)) {
@@ -79,12 +84,6 @@ class AppController extends Controller {
 			}
 		}
 	}
-	
-	public function beforeFilter() {
-		$this->__switch_lang ();
-        $this->layout = 'default';
-    }
-
 	function beforeRender() {
         $this->set('auth', $this->Auth->user());
 		$this->set('base_url', 'http://'.$_SERVER['SERVER_NAME'].Router::url('/'));
