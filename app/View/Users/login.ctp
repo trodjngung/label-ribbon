@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
-	<title>Admin Dashboard</title>
+	<title>VOTC| Login</title>
 	<?php
 	echo $this->Html->css('/css/font-awesome.min.css') . PHP_EOL;
 	echo $this->Html->css('/css/bootstrap.min.css') . PHP_EOL;
@@ -24,7 +24,7 @@
 
 </head>
 <body>
-	<div class="login-page bk-img" style="background-image: url(<?php echo $appRoot; ?>/img/login-bg.jpg);">
+	<div class="login-page bk-img">
 		<div class="form-content">
 			<div class="container">
 				<div class="row">

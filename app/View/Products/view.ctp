@@ -109,17 +109,19 @@
 										} ?>
 									</td>
 								</tr>
+								<tr>
+									<th class="alignRight">Ảnh sản phẩm</th>
+									<td class="pdl20">
+									<?php
+										foreach ($productImg as $value):
+											echo '<img class="product-img" src="' . $base_url . 'img/products/' . $value['ProductImage']['image_url'] . '" width="80%" alt="profile picture" style="float: left;width: 33%;height: 200px;margin-right: 2px;margin-bottom: 2px;border: 1px solid #ccc;">';
+										endforeach;
+									?>
+									</td>
+								</tr>
 							</tbody>
 						</table>
 					</div>
-			
-					<!-- <td align="right">Ảnh sản phẩm:</td> -->
-					<!-- <td> -->
-					<?php
-						//foreach ($productImg as $value):
-							//echo '<img class="product-img" src="' . $base_url . 'img/products/' . $value['ProductImage']['image_url'] . '" width="80%" alt="profile picture">';
-						//endforeach;
-					?>
 				</div>
 			</div>
 		</div>

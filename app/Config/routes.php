@@ -24,27 +24,26 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-//Router::connectNamed ( array('action' => 'view', 'controller' => 'posts') );
-Router::connect ( '/admin/posts', array (
-		'controller' => 'posts',
-		'action' => 'index' 
-) );
-Router::connect ( '/posts/:action', array (
-		'controller' => 'posts' 
-) );
+
+
 Router::connect ( '/admin', array (
 		'controller' => 'users',
-		'action' => 'index', 'login' 
+		'action' =>'login' 
+) );
+Router::connect ( '/admin/user', array (
+		'controller' => 'users',
+		'action' => 'index'
 ) );
 Router::connect ( '/admin/user/:action/*', array (
 		'controller' => 'users' 
 ) );
+
 Router::connect ( '/admin/product/:action/*', array (
 		'controller' => 'products' 
 ) );
-Router::connect ( '/sanpham/*', array (
-		'controller' => 'posts',
-		'action'=>'view'
+Router::connect ( '/admin/product', array (
+		'controller' => 'products',
+		 'action' => 'index'
 ) );
 Router::connect ( '/:action', array (
 		'controller' => 'home' 

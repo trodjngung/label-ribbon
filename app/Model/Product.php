@@ -23,6 +23,26 @@ App::uses('AppModel', 'Model');
 class Product extends AppModel {
   var $name = 'Product';
 
+  function getAllProduct() {
+    $options['fields'] = array(
+        'Product.*',
+        'ProductImage.image_url',
+    );
+    $options['joins'] = array(
+        array(
+            'table' => 'product_images',
+            'alias' => 'ProductImage',
+            'type' => 'left',
+            'conditions' => array(
+                'ProductImage.product_id = Product.id',
+            )
+        )
+    );
+    $options['order'] = 'Product.id DESC';
+    $options['group'] = 'Product.id';
+    return $this->find('all', $options);
+  }
+
   function getListMax() {
     $options['fields'] = array(
         'max(cast(id as signed)) as id'

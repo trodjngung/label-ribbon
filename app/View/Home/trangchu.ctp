@@ -6,13 +6,13 @@
 				<li class="slide1" data-transition="slotzoom-horizontal" data-slotamount="5" data-masterspeed="300" style="visibility: visible; left: 0px; top: 0px; z-index: 20; opacity: 1;">
 					<!-- slide 1 image -->
 					<div class="slotholder">
-						<img alt="" src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/slide1a.jpg" class="defaultimg" style="width: 1429px; height: 520px; position: absolute; left: -40px; opacity: 1;">
+						<img alt="" src="http://sieuthimasomavach.vn/view/at_Avery%20AP%202.4_1427691880.jpg" class="defaultimg" style="width: 1429px; height: 520px; position: absolute; left: -40px; opacity: 1;">
 					</div>
 					<!-- slide 1 caption 1 parameters -->
 					<div class="caption sft start" data-x="10" data-y="380" data-speed="2500" data-start="1000" data-easing="easeInBack" style="font-size: 28px; padding: 0px 0px 4px; margin: 0px 0px 20px; border: 0px; line-height: 30px; white-space: nowrap; opacity: 1; left: 204.5px; top: 380px; visibility: visible;">
 						<!-- slide 1 caption 1 -->
-						<p class="cap-1">6231 Topsfield Lane<br>
-							<span class="price">$535,000</span>
+						<p class="cap-1">Tem nhãn , Ruy băng mã vạch<br>
+							<span class="price">Giá từ 10.000.000 - 20.000.000đ</span>
 						</p>
 					</div>
 				</li>
@@ -20,13 +20,13 @@
 				<li class="slide2" data-transition="slotzoom-horizontal" data-slotamount="5" data-masterspeed="300" style="visibility: visible; left: 0px; top: 0px; z-index: 18; opacity: 1;">
 					<!-- slide 2 image -->
 					<div class="slotholder">
-						<img alt="" src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/slide2a.jpg" class="defaultimg" style="width: 1511px; height: 520px; position: absolute; left: -81px; opacity: 0;">
+						<img alt="" src="http://vietnamsino.com/resource/files/5-kinh-nghiem-mua-may-in-ma-v%E1%BA%A1ch-gia-si.jpg" class="defaultimg" style="width: 1511px; height: 520px; position: absolute; left: -81px; opacity: 0;">
 					</div>
 					<!-- slide 2 caption 1 parameters -->
 					<div class="caption sft start" data-x="10" data-y="380" data-speed="2500" data-start="1000" data-easing="easeInBack" style="font-size: 0px; padding: 0px; margin: 0px; border: 0px; line-height: 0px; white-space: nowrap; opacity: 0; left: 0px; top: 8805px; visibility: hidden;">
 						<!-- slide 2 caption 1 -->
-						<p class="cap-1">8590 Highland Crest<br>
-							<span class="price">$689,000</span>
+						<p class="cap-1">Máy in mã vạch-Máy đọc mã vạch<br>
+							<span class="price">Giá từ 8.000.000 - 15.000.000đ</span>
 						</p>
 					</div>
 				</li>
@@ -34,13 +34,13 @@
 				<li class="slide2" data-transition="slotzoom-horizontal" data-slotamount="5" data-masterspeed="300" style="visibility: visible; left: 0px; top: 0px; z-index: 18; opacity: 1;">
 					<!-- slide 3 image -->
 					<div class="slotholder">
-						<img alt="" src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/slide3a.jpg" class="defaultimg" style="width: 1429px; height: 520px; position: absolute; left: -40px; opacity: 0;">
+						<img alt="" src="http://mavachbinhduong.cdn.vccloud.vn/wp-content/uploads/2015/10/Dau-in-Avery-AP-5_4-300-dpi.jpg" class="defaultimg" style="width: 1429px; height: 520px; position: absolute; left: -40px; opacity: 0;">
 					</div>
 					<!-- slide 3 caption 1 parameters -->
 					<div class="caption sft start" data-x="10" data-y="380" data-speed="2500" data-start="1000" data-easing="easeInBack" style="visibility: hidden; font-size: 28px; padding: 0px 0px 4px; margin: 0px 0px 20px; border: 0px; line-height: 30px; white-space: nowrap; opacity: 0; left: 204.5px; top: 330px;">
 						<!-- slide 3 caption 1 -->
-						<p class="cap-1">6800 Sherburne Drive<br>
-							<span class="price">$379,500</span>
+						<p class="cap-1"> Đầu in mã vạch-Thẻ treo  <br>
+							<span class="price">Giá từ 4.000.000 - 9.000.000đ</span>
 						</p>
 					</div>
 				</li>
@@ -59,24 +59,26 @@
 		<div class="row">
 			<div class="col-sm-12 col-ms-12">
 				<!-- begin real estate agent's promo block -->
+					
 				<div class="row">
 					<div class="col-sm-12 col-ms-12">
 						<div class="promo-block">
-							<!-- edit real estate agent's promo block heading here -->
+		<!-- edit real estate agent's promo block heading here -->
+		<!--					
 							<h2 class="block-title styler_color">DISCOVER THE MARY ANDERSON DIFFERENCE</h2>
-							<!-- promo real estate agent's block line divider here -->
+							
 							<div class="block-separator clearfix"></div>
 							<div class="col-sm-4 col-ms-4">
-								<!-- edit real estate agent's promo block image here -->
+								
 								<img class="img-responsive block-img" src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/rep.jpg" alt="">
 							</div>
 							<div class="col-sm-8 col-ms-8">
-								<!-- real estate agent's promo block text starts here -->
+								
 								<div class="promo-text">
-									<!-- edit real estate agent's promo block sub-heading here -->
+									
 									<h3>An Experienced Real Estate Pro You Can Trust </h3>
 									<br>
-									<!-- edit real estate agent's promo block paragraph text here -->
+									
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh orci, commodo at mi non, ullamcorper elementum mauris. Fusce posuere sodales erat sed posuere. Integer sollicitudin, sem nec lobortis hendrerit, risus ante venenatis lacus, ut imperdiet ipsum ipsum ac arcu. Nunc sodales egestas tortor, id dapibus urna vulputate ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non odio sem. Proin id nunc cursus, tempus felis eu, accumsan felis. Donec commodo libero est, at lobortis ipsum congue ut.</p>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh orci, commodo at mi non, ullamcorper elementum mauris. Fusce posuere sodales erat sed posuere. Integer sollicitudin, sem nec lobortis hendrerit, risus ante venenatis lacus, ut imperdiet ipsum ipsum.</p>
 									<img style="float: left;" src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/realtor-signature.jpg" alt="">
@@ -84,7 +86,8 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>		
+				-->
 				<!-- /end promo text block -->
 				
 				<!-- begin featured listings summary block -->
@@ -95,7 +98,7 @@
 							<div class="col-md-12 col-sm-12 col-xs-12">
 								<!-- edit featured listings headline here -->
 								<h2 class="block-title styler_color">
-								MY FEATURED LISTINGS
+								SẢN PHẨM 
 								</h2>
 							</div>
 						</div>
@@ -105,9 +108,9 @@
 								<!-- featured item  house #1 summary info -->
 								<div class="featured-item">
 									<!-- house #1 image -->
-									<img class="img-responsive" src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/house1.jpg" alt="">
+									<img class="img-responsive" src="http://mavachchinhhang.vn/images/detailed/1/iprinter.jpg" alt="">
 									<!-- house #1 headline -->
-									<div class="heading styler_bg_color">POOL &amp; SPA!</div>
+									<div class="heading styler_bg_color">Máy in mã vạch Datamax-O'Neil S-Class</div>
 									<!-- house #1 summary content -->
 									<div class="content">
 										<!-- house #1 summary content: address -->
@@ -146,9 +149,9 @@
 								<!-- featured item  house #2 summary info -->
 								<div class="featured-item">
 									<!-- house #2 image -->
-									<img class="img-responsive" src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/house2.jpg" alt="">
+									<img class="img-responsive" src="http://labelbarcode.com.vn/images/products/Datamax-ONeil%20M-Class-Mark-II.jpg" alt="">
 									<!-- house #2 headline -->
-									<div class="heading styler_bg_color">NEW CONSTRUCTION</div>
+									<div class="heading styler_bg_color">Máy in mã vạch Datamax-O'Neil I-Class Mark II</div>
 									<!-- house #2 summary content -->
 									<div class="content">
 										<!-- house #2 summary content: address -->
@@ -187,9 +190,9 @@
 								<!-- featured item  house #3 summary info -->
 								<div class="featured-item">
 									<!-- house #3 image -->
-									<img class="img-responsive" src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/house10.jpg" alt="">
+									<img class="img-responsive" src="https://cdn.barcodesinc.com/images/models/lg/Zebra/zxp8.jpg" alt="">
 									<!-- house #3 headline -->
-									<div class="heading styler_bg_color">CONTRACT PENDING</div>
+									<div class="heading styler_bg_color">ZXP Series 8</div>
 									<!-- house #3 summary content -->
 									<div class="content">
 										<!-- house #3 summary content: address -->
@@ -231,9 +234,9 @@
 								<!-- featured item  house #4 summary info -->
 								<div class="featured-item">
 									<!-- house #4 image -->
-									<img class="img-responsive" src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/house4.jpg" alt="">
+									<img class="img-responsive" src="http://ecx.images-amazon.com/images/I/41ol1HHi7yL._SY355_.jpg" alt="">
 									<!-- house #4 headline -->
-									<div class="heading styler_bg_color">BEAUTIFUL COTTAGE</div>
+									<div class="heading styler_bg_color">ZXP Series 3</div>
 									<!-- house #4 summary content -->
 									<div class="content">
 										<!-- house #4 summary content: address -->
@@ -272,9 +275,9 @@
 								<!-- featured item  house #5 summary info -->
 								<div class="featured-item">
 									<!-- house #5 image -->
-									<img class="img-responsive" src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/house7.jpg" alt="">
+									<img class="img-responsive" src="http://tekmart.com.vn/upload/sanpham/large/37-giay-decal-tem-nhan-cam-nhiet-truc-tiep.png" alt="">
 									<!-- house #5 headline -->
-									<div class="heading styler_bg_color">JUST REDUCED!</div>
+									<div class="heading styler_bg_color">Decal Tem nhãn Cảm nhiệt</div>
 									<!-- house #5 summary content -->
 									<div class="content">
 										<!-- house #5 summary content: address -->
@@ -313,9 +316,9 @@
 								<!-- featured item  house #6 summary info -->
 								<div class="featured-item">
 									<!-- house #6 image -->
-									<img class="img-responsive" src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/house9.jpg" alt="">
+									<img class="img-responsive" src="https://lh6.googleusercontent.com/-8QTN8e1BgE0/VtuXvPKE2BI/AAAAAAAAE0k/50SXk8QpOgQ/s500-no/2505.jpg" alt="">
 									<!-- house #6 headline -->
-									<div class="heading styler_bg_color">NEW LISTING</div>
+									<div class="heading styler_bg_color">Đầu in mã vạch Avery</div>
 									<!-- house #6 summary content -->
 									<div class="content">
 										<!-- house #6 summary content: address -->
@@ -2536,7 +2539,7 @@
 						<div class="promo-block about-block">
 							<!-- edit the about heading text here -->
 							<h2 class="block-title styler_color">
-							ABOUT MARY ANDERSON
+							LỜI NHẮN NHỦ TỚI KHÁCH HÀNG
 							</h2>
 							<div class="block-separator clearfix"></div>
 							<div class="col-sm-8 col-ms-8">
@@ -2562,19 +2565,19 @@
 						<div class="row">
 							<div class="col-sm-3 col-ms-3">
 								<!-- edit logo #1 here -->
-								<img src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/award1.jpg" alt="">
+								<img src="http://media.bizwebmedia.net/Sites/1554/Data/images/zebra_technologies.gif" width="200px" alt="">
 							</div>
 							<div class="col-sm-3 col-ms-3">
 								<!-- edit logo #2 here -->
-								<img src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/award2.jpg" alt="">
+								<img src="http://media.bizwebmedia.net/Sites/1554/Data/images/Motorola_logo.jpg" width="200px" alt="">
 							</div>
 							<div class="col-sm-3 col-ms-3">
 								<!-- edit logo #3 here -->
-								<img src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/award3.jpg" alt="">
+								<img src="http://media.bizwebmedia.net/Sites/1554/Data/images/avery_logo.jpg" width="200px" alt="">
 							</div>
 							<div class="col-sm-3 col-ms-3">
 								<!-- edit logo #4 here -->
-								<img src="http://www.themeleaf.com/preview/realestatepro-v1.0/img/award4.jpg" alt="">
+								<img src="http://media.bizwebmedia.net/Sites/1554/Data/images/zebra_technologies.gif" width="200px" alt="">
 							</div>
 						</div>
 					</div>
@@ -2584,17 +2587,17 @@
 					<div id="resources_marker"></div>
 					<!-- edit the resources heading here -->
 					<h2 class="block-title styler_color">
-					MOVING RESOURCES
+					ĐỊA CHỈ LIÊN HỆ 
 					</h2>
 					<div class="block-separator clearfix"></div>
 					<div class="resources-wrapper">
 						<div class="col-md-4 col-sm-4">
 							<!-- edit the resources tabs here -->
 							<ul class="nav nav-tabs">
-								<li class="styler_parent_active active"><a class="styler_bg_color styler_active_color" href="#movers" data-toggle="tab">Movers</a></li>
-								<li class="styler_parent_active"><a class="styler_bg_color styler_active_color" href="#contractors" data-toggle="tab">Contractors</a></li>
-								<li class="styler_parent_active"><a class="styler_bg_color styler_active_color" href="#utilities" data-toggle="tab">Utilities</a></li>
-								<li class="styler_parent_active"><a class="styler_bg_color styler_active_color" href="#lenders" data-toggle="tab">Lenders</a></li>
+								<li class="styler_parent_active active"><a class="styler_bg_color styler_active_color" href="#movers" data-toggle="tab">BAN GIÁM ĐỐC</a></li>
+								<li class="styler_parent_active"><a class="styler_bg_color styler_active_color" href="#contractors" data-toggle="tab">VĂN PHÒNG</a></li>
+								<li class="styler_parent_active"><a class="styler_bg_color styler_active_color" href="#utilities" data-toggle="tab">XƯỞNG </a></li>
+								<li class="styler_parent_active"><a class="styler_bg_color styler_active_color" href="#lenders" data-toggle="tab">GOOGLE MAP</a></li>
 							</ul>
 						</div>
 						<div class="col-md-8 col-sm-8">
@@ -2603,76 +2606,66 @@
 								<div class="tab-pane active" id="movers">
 									<div class="top-sector">
 										<div class="title">
-											Around the block moving
+											Giám Đốc : <b> Nguyễn Văn A </b>
 										</div>
 										<address>
-											9535 Forest Lane<br>
-											Dallas, TX 75254<br>
-											(214)348-8888
+											Số điện thoại: <b> 0988 888 768 </b> <br>
+											Email: <b>nguyenvana@outlook.com</b><br>
+											
 										</address>
-										<a class="lnk styler_color" href="#">www.atbmoving.com</a>
+										<a class="lnk styler_color" href="#">www.dantri.com.vn</a>
 									</div>
 									<div class="bottom-sector">
 										<div class="title">
-											United Moving Company
+											Giám Đốc : <b> Trần Quang B </b>
 										</div>
 										<address>
-											7500 Churchill Road<br>
-											Dallas, TX 75231<br>
-											(214)348-8888
+											Số điện thoại: <b> 0988 876 768 </b> <br>
+											Email: <b>tranquangb@outlook.com</b><br>
+											
 										</address>
-										<a class="lnk styler_color" href="#">www.umcservices.com</a>
+										<a class="lnk styler_color" href="#">www.vnexpress.net</a>
 									</div>
 								</div>
 								<!-- edit tab #2 (contractors) content here -->
 								<div class="tab-pane" id="contractors">
 									<div class="top-sector">
 										<div class="title">
-											NewLeaf Remodeling, Inc.
+											Văn phòng tại Hà Nội
 										</div>
 										<address>
-											5105 Royal Lane<br>
-											Dallas, TX 75235<br>
-											(214)649-6680
+											2002 tầng 22<br>
+											Toà nhà Lotte Cầu Giấy<br>
+											0433876521
 										</address>
-										<a class="lnk styler_color" href="#">www.newleafremodel.com</a>
+										
 									</div>
 									<div class="bottom-sector">
 										<div class="title">
-											Stevens &amp; Sons Plumbing
+											Văn phòng tại Tp.Hồ Chí Minh
 										</div>
 										<address>
-											9935 Forest Lane<br>
-											Dallas, TX 75290<br>
-											(214)348-8888
+											1020 Diamon Plaza <br>
+							
+											08 28 28 28
 										</address>
-										<a class="lnk styler_color" href="#">www.stevensplumbers.com</a>
+										
 									</div>
 								</div>
 								<!-- edit tab #3 (utilities) content here -->
 								<div class="tab-pane" id="utilities">
 									<div class="top-sector">
 										<div class="title">
-											Comcast (Dallas Office)
+											Địa chỉ Xưởng 
 										</div>
 										<address>
-											3335 Munger Road<br>
-											Dallas, TX 75235<br>
-											(972)556-7000
+											222 Đồng Nai<br>
+											
+											06 456 456
 										</address>
-										<a class="lnk styler_color" href="#">www.comcast.com</a>
+										
 									</div>
-									<div class="top-sector">
-										<div class="title">
-											Time Warner Cable (Dallas Office)
-										</div>
-										<address>
-											4500 Luther Lane<br>
-											Dallas, TX 75234<br>
-											(214)888-8888
-										</address>
-										<a class="lnk styler_color" href="#">www.twc.com</a>
-									</div>
+									
 								</div>
 								<!-- edit tab #4 (lenders) content here -->
 								<div class="tab-pane" id="lenders">
@@ -2706,26 +2699,31 @@
 				</div>
 				<!-- /end resources -->
 				<!-- begin contact form -->
+				<!--
 				<div id="contact_marker"></div>
-				<h2 class="block-title styler_color">CONTACT US</h2>
+				<h2 class="block-title styler_color">GỬI LỜI NHẮN CHO CHÚNG TÔI </h2>
 				<div class="block-separator clearfix"></div>
 				<div class="bottom-contact">
 					<div class="row">
-						<div class="col-md-8 col-sm-8">
+						<div class="col-md-12 col-sm-12">
 							<form role="form" id="validForm">
 								<div class="form-group">
-									<input type="text" class="form-control" id="inputName" placeholder="Name">
+									<input type="text" class="form-control" id="inputName" placeholder="Họ và tên">
 								</div>
+								
 								<div class="form-group">
-									<input type="text" class="form-control" id="inputName2" placeholder="Name">
-								</div>
-								<div class="form-group">
-									<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+									<input type="email" class="form-control" id="inputEmail" placeholder="Địa chỉ Email">
 								</div>
 								<div class="form-group">
 									<textarea id="textarea" class="form-control" rows="3"></textarea>
 								</div>
-								<!-- turn captcha on here by removing this comment
+								
+								<div id="result"></div>
+								<input type="submit" value="Gửi" class="btn btn-primary submit styler_bg_color">
+							</form>
+						</div>
+						-->
+						<!-- turn captcha on here by removing this comment
 								<?php
 									//require_once('config.php');
 									//require_once('recaptchalib.php');
@@ -2734,10 +2732,7 @@
 									}
 								?>
 								-->
-								<div id="result"></div>
-								<input type="submit" value="Submit" class="btn btn-primary submit styler_bg_color">
-							</form>
-						</div>
+						<!--
 						<div class="col-md-4 col-sm-4">
 							<div class="address">
 								<div class="title styler_color">Address, Phone &amp; Email</div>
@@ -2754,6 +2749,7 @@
 								</address>
 							</div>
 						</div>
+						-->
 					</div>
 				</div>
 			</div>

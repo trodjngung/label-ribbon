@@ -33,8 +33,8 @@ class ProductsController extends AppController {
 
     public function index() {
         // $this->isAdmin();
-        $this->Product->recursive = 0;
-        $this->set('products', $this->paginate());
+        $products = $this->Product->getAllProduct();
+        $this->set('products', $products);
     }
     public function add() {
         if ($this->request->is('post')) {

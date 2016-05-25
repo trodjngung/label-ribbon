@@ -39,7 +39,7 @@
             $debug_level = 0;
             break;
         default:
-            $debug_level = 1;
+            $debug_level = 0;
             break;
     }
     Configure::write('debug', $debug_level);

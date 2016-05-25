@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
-	<title>Admin Dashboard</title>
+	<title><?php echo 'VOTC | '.$title_for_layout;?></title>
 	<?php
 	echo $this->Html->css('/css/font-awesome.min.css') . PHP_EOL;
 	echo $this->Html->css('/css/bootstrap.min.css') . PHP_EOL;
@@ -79,7 +79,7 @@
 		<nav class="ts-sidebar">
 			<ul class="ts-sidebar-menu">
 				<li class="open">
-					<a href="#"><i class="fa fa-dashboard"></i> Dashboard</a>
+					<a href="/"><i class="fa fa-dashboard"></i> Về trang chủ</a>
 				</li>
 				<li>
 					<?php echo $this->Html->link (

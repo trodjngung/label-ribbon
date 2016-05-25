@@ -110,7 +110,7 @@ a:hover {
 }
 .bk-white,
 .bk-light {
-  background: #fff;
+  background: #EAEAEA;
 }
 .bk-brand {
   background: #37a6c4;
@@ -128,12 +128,12 @@ a:hover {
   background: transparent;
 }
 .bk-img {
-  position: relative;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../../img/login-bg.jpg);
+    position: relative;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 .bk-fixed {
   background-attachment: fixed;
@@ -200,7 +200,7 @@ a:hover {
 }
 .text-white,
 .text-light {
-  color: #fff !important;
+  color: #333 ;
 }
 .link-white a {
   color: #fff;

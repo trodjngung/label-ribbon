@@ -56,11 +56,17 @@
 							<?php foreach ($products as $product): ?>
 								<tr>
 									<td>
-										<?php echo $this->Html->link ( $product ['Product'] ['product_name'], array (
+									<?php
+										echo $this->Html->link ( $product ['Product'] ['product_name'], array (
 											'controller' => 'products',
 											'action' => 'view',
 											$product ['Product'] ['id'] 
-										) ); ?>
+										) );
+										if($product ['ProductImage'] ['image_url'] != NULL) {
+											echo '<p><img class="product-img" src="' . $base_url . 'img/products/' . $product['ProductImage']['image_url'] . '" width="100%" alt="profile picture" style="border: 1px solid #ccc;"></p>';
+										}
+
+									?>
 									</td>
 									<td>
 									 	<?php echo $product ['Product'] ['product_code']; ?>
