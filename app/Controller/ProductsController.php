@@ -23,7 +23,7 @@ App::uses('Folder', 'Utility');
 
 class ProductsController extends AppController {
 
-    public $uses = array('Product', 'ProductImage');
+    public $uses = array('Product', 'ProductImage', 'SelectOption');
 
     public function beforeFilter() {
         parent::beforeFilter();
@@ -70,6 +70,8 @@ class ProductsController extends AppController {
                 array('class' => 'error')
             );
         }
+        $categories = $this->SelectOption->getOptionByColumnName('category');
+        $this->set('categories', $categories);
     }
     public function view($id = null) {
         $this->Product->id = $id;
@@ -130,6 +132,8 @@ class ProductsController extends AppController {
         $productImgs = $this->ProductImage->getProductImgByProductId($id);
         $this->set('productImgs', $productImgs);
         $this->set('product', $product);
+        $categories = $this->SelectOption->getOptionByColumnName('category');
+        $this->set('categories', $categories);
     }
     public function delete($id = null) {
         $this->request->allowMethod('post');
@@ -163,6 +167,9 @@ class ProductsController extends AppController {
     public function saveProduct($data, $product_id, $function)
     {
         $requestData['Product'] = $data['Product'];
+        if (isset($requestData['Product']['category_name'])) {
+            $requestData['Product']['category_name'] = implode(",", $requestData['Product']['category_name']);
+        }
         $saveFlag = $this->Product->save($requestData['Product']);
 
         if ($saveFlag) {

@@ -130,6 +130,26 @@
                 </div>
               </div>
               <div class="row mgbt20 mgt20">
+                <label class="col-md-2 control-label alignRight mgt5">Danh mục sản phẩm</label>
+                <div class="col-md-10">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <?php
+                        foreach($categories as $category):
+                          echo '<div class="col-md-3 mgt5 mgbt5">';
+                          if (strpos($product['Product']['category_name'], $category['SelectOption']['display_name']) !== false) {
+                            echo '<input type="checkbox" name="data[Product][category_name][]" value="' . $category['SelectOption']['display_name'] . '" checked="checked"> ' . $category['SelectOption']['display_name'];
+                          } else  {
+                            echo '<input type="checkbox" name="data[Product][category_name][]" value="' . $category['SelectOption']['display_name'] . '"> ' . $category['SelectOption']['display_name'];
+                          }
+                          echo '</div>';
+                        endforeach;
+                      ?>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mgbt20 mgt20">
                 <label class="col-md-2 control-label alignRight mgt20">Ảnh liên quan</label>
                 <div class="col-md-10">
                   <div class="MultiFile-list" id="MultiFile1_wrap_list">

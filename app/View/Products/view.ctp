@@ -110,11 +110,28 @@
 									</td>
 								</tr>
 								<tr>
+									<th class="alignRight">Danh mục sản phẩm</th>
+									<td class="pdl20">
+										<?php if(!empty($product['Product']['category_name'])) {
+											echo '<span style="font-size: 16px;">';
+											$category_names = explode(',', $product['Product']['category_name']);
+											foreach($category_names as $key => $category_name):
+												if ($key == (count($category_names)-1)) {
+													echo '<a class="collapsed" href="#">' . $category_name . '</a>';
+												} else {
+													echo '<a class="collapsed" href="#">' . $category_name . '</a>, ';
+												}
+											endforeach;
+											echo '</span>';
+										} ?>
+									</td>
+								</tr>
+								<tr>
 									<th class="alignRight">Ảnh sản phẩm</th>
 									<td class="pdl20">
 									<?php
 										foreach ($productImg as $value):
-											echo '<img class="product-img" src="' . $base_url . 'img/products/' . $value['ProductImage']['image_url'] . '" width="80%" alt="profile picture" style="float: left;width: 33%;height: 200px;margin-right: 2px;margin-bottom: 2px;border: 1px solid #ccc;">';
+											echo '<img class="product-img" src="' . $base_url . 'img/products/' . $value['ProductImage']['image_url'] . '" width="33%" alt="profile picture" style="float: left;width: 33%;height: 200px;margin-right: 2px;margin-bottom: 2px;border: 1px solid #ccc;">';
 										endforeach;
 									?>
 									</td>

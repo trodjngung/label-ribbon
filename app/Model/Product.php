@@ -43,6 +43,27 @@ class Product extends AppModel {
     return $this->find('all', $options);
   }
 
+  function getProductForHomePage() {
+    $options['fields'] = array(
+        'Product.*',
+        'ProductImage.image_url',
+    );
+    $options['joins'] = array(
+        array(
+            'table' => 'product_images',
+            'alias' => 'ProductImage',
+            'type' => 'left',
+            'conditions' => array(
+                'ProductImage.product_id = Product.id',
+            )
+        )
+    );
+    $options['order'] = 'rand()';
+    $options['group'] = 'Product.id';
+    $options['limit'] = '9';
+    return $this->find('all', $options);
+  }
+
   function getListMax() {
     $options['fields'] = array(
         'max(cast(id as signed)) as id'

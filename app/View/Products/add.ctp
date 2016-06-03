@@ -1,6 +1,6 @@
 <?php echo $this->Html->script('ckeditor/ckeditor');?>
-<?php echo $this->Html->script('products/jquery.multifile');?>
-<?php echo $this->Html->script('products/product');?>
+<?php echo $this->Html->script('view/products/jquery.multifile');?>
+<?php echo $this->Html->script('view/products/product');?>
 <?php echo $this->Html->css('view/product/product');?>
 <!-- Create product -->
 <div class="container-fluid">
@@ -17,7 +17,6 @@
         </div>
         <div class="panel-body">
           <?php echo $this->Form->create('Product', array('enctype' => 'multipart/form-data', 'class' => 'sky-form')); ?>
-          <!-- <form action="<?php echo $appRoot . '/products/add/'; ?>" class="sky-form" novalidate="novalidate" id="ProductEditForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div> -->
             <div class="col-md-12">
               <div class="row mgbt20 mgt20">
                 <label class="col-md-2 control-label alignRight mgt5">Tên sản phẩm</label>
@@ -83,6 +82,22 @@
                 <label class="col-md-2 control-label alignRight mgt5">SEO - Từ khóa</label>
                 <div class="col-md-10">
                   <input name="data[Product][seo_keyword]" placeholder="Nhập các từ khóa cách nhau bằng dầu ','" type="text" id="ProductProductTag" class="form-control input-sm" required="required">
+                </div>
+              </div>
+              <div class="row mgbt20 mgt20">
+                <label class="col-md-2 control-label alignRight mgt5">Danh mục sản phẩm</label>
+                <div class="col-md-10">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <?php
+                        foreach($categories as $category):
+                          echo '<div class="col-md-3 mgt5 mgbt5">';
+                          echo '<input type="checkbox" name="data[Product][category_name][]" value="' . $category['SelectOption']['display_name'] . '"> ' . $category['SelectOption']['display_name'];
+                          echo '</div>';
+                        endforeach;
+                      ?>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="row mgbt20 mgt20">
