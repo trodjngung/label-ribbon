@@ -4,7 +4,7 @@ body * {
 	padding: 0;
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
-	font-family: 'Open Sans', sans-serif;
+	font-family: serif, sans-serif, Open Sans;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 }
@@ -3004,8 +3004,8 @@ form {
 	font-weight: 800;
 	padding: 20px 0;
 	color: #fff;
-	text-transform: uppercase;
-	font-size: 20px;
+	/*text-transform: uppercase;*/
+	font-size: 15px;
 	background-color: #000;
 }
 
@@ -3172,8 +3172,8 @@ form {
 }
 
 .property-item .details-info .item-id {
-	color: #666;
-	font-size: 15px;
+    color: #A2A74B;
+    font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 15px;
 }
@@ -3321,6 +3321,7 @@ form {
 
 .about-block .promo-text {
 	padding-top: 30px;
+	text-align: justify;
 }
 
 .awards-block {
@@ -3429,3 +3430,4 @@ form {
 	{
 	background-color: #a1a64a !important;
 }
+
