@@ -1,6 +1,6 @@
 <?php echo $this->Html->script('ckeditor/ckeditor');?>
-<?php echo $this->Html->script('products/jquery.multifile');?>
-<?php echo $this->Html->script('products/product');?>
+<?php echo $this->Html->script('view/products/jquery.multifile');?>
+<?php echo $this->Html->script('view/products/product');?>
 <?php echo $this->Html->css('view/product/product');?>
 <!-- Create product -->
 <div class="container-fluid">

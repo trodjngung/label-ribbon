@@ -11,7 +11,7 @@
                     <div class="col-md-3 col-sm-3 clearfix">
                         <!-- insert header logo here -->
                         <a href="#" id="logo">
-                            <img src="http://baohothuonghieu.com/banquyen/images/news/1415331434-tao-ma-vach-truc-tuyen.jpg" alt="" width="200" height="200">
+                            <img src="/img/logo/logolabel.png" alt="" width="300" height="300">
                         </a>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -45,7 +45,7 @@
                                                     <a href="#" class="dropdown-toggle styler_hover_bg_color styler_active_bg_color" data-toggle="dropdown" aria-expanded="true">TEM NHÃN </a>
                                                     <ul class="dropdown-menu">
                                                         <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">TEM IN MÃ VẠCH</a></li>
-                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">NHÃN THỰC PHẨM</a></li>
+                                                        <li><a href="/nhanthucpham" class="styler_hover_bg_color styler_active_bg_color">NHÃN THỰC PHẨM</a></li>
                                                         <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">NHÃN MỸ PHẨM</a></li>
                                                         <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">NHÃN DƯỢC PHẨM</a></li>
                                                         <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">NHÃN ĐIỆN TỬ</a></li>
@@ -54,18 +54,26 @@
                                                 <li class="dropdown-submenu submenu styler_parent_active">
                                                 <a href="#" class="dropdown-toggle styler_hover_bg_color styler_active_bg_color" data-toggle="dropdown" aria-expanded="true">RUY BĂNG MÃ VẠCH </a>
                                                 <ul class="dropdown-menu">
-                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">RIBBON WAX</a></li>
-                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">RIBBON WAX RCHIN</a></li>
-                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">RIBBON REHIN</a></li>
+                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">RUY BĂNG IN WAX</a></li>
+                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">RUY BĂNG IN  WAX RESIN </a></li>
+                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">RUY BĂNG IN  RESIN</a></li>
                                                         
                                                     </ul>
                                                 
                                                 
                                                 </li>
-                                                <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">MÁY IN MÃ VẠCH</a></li>
+                                                 <li class="dropdown-submenu submenu styler_parent_active">
+                                                    <a href="#" class="dropdown-toggle styler_hover_bg_color styler_active_bg_color" data-toggle="dropdown" aria-expanded="true">MÁY IN MÃ VẠCH </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">MÁY IN ZEBRA</a></li>
+                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">MÁY IN SATO</a></li>
+                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">MÁY IN DATAMAX</a></li>
+                                                 
+                                                    </ul>
+                                                </li>
                                                 <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">MÁY ĐỌC MÃ VẠCH</a></li>
                                                 <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">ĐẦU IN MÃ VẠCH</a></li>
-                                                <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">THẺ TREO</a></li>
+                                                <li><a href="#" class="styler_hover_bg_color styler_active_bg_color">PHẦN MỀM & GIẢI PHÁP</a></li>
                                               </ul>  
                                         </li>
                                         <!-- End sản phẩm -->
@@ -144,7 +152,8 @@
 														<ul class="list-unstyled row">
 															<li>
 																<p>
-																	<strong><a href="#" target="_self">THẺ TREO</a></strong>
+																	<strong><a href="#" target="_self">Phần Mềm & Giải Pháp</a
+></strong>
 																</p>
 																			
 														</ul>

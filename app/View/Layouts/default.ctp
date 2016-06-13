@@ -4,7 +4,7 @@
 		<!-- meta data -->
 		<meta http-equiv="Content-Type" content="text/html;
 		charset=utf-8">
-		<title>Real Estate Professional</title>
+		<title><?php $title_for_layout ;?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="format-detection" content="telephone=no">
 		<!-- End meta data -->

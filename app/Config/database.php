@@ -6,7 +6,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => '127.0.0.1',
 		'login' => 'labelrib_lable',
-		'password' => 'Chi9nguyen',
+		'password' => 'IrT4[emLEe4%',
 		'database' => 'labelrib_lable',
 		'prefix' => '',
 		'encoding' => 'utf8',
